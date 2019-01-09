@@ -1,0 +1,6252 @@
+[
+  {
+    "id": 1,
+    "name": "TA1105",
+    "components": [
+      {
+        "id": 215,
+        "name": "113TQ-R700WB",
+        "category": "Корпус",
+        "attributes": [
+          {
+            "category": "Hot-swap",
+            "name": "2,5\"",
+            "value": "8"
+          },
+          {
+            "category": "Кол-во отсеков под слоты расширения",
+            "name": "LowProfile слоты корпуса",
+            "value": "1"
+          },
+          {
+            "category": "Физические параметры корпуса",
+            "name": "Форм-фактор шасси",
+            "value": "Rack 1U"
+          },
+          {
+            "category": "Rizer с макс. кол-вом подключаемых устройств",
+            "name": "Кол-во устр. для подкл. через rizer",
+            "value": "3"
+          },
+          {
+            "category": "Физические параметры корпуса",
+            "name": "Корпус категории WIO",
+            "value": "да"
+          },
+          {
+            "category": "Основное корпус",
+            "name": "Материнская плата",
+            "value": "X11SPW-TF"
+          },
+          {
+            "category": "Кол-во отсеков под слоты расширения",
+            "name": "FullHeight&Full-Length  слоты корпуса",
+            "value": "2"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Кол-во БП",
+            "value": "2"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Модель БП",
+            "value": "750W 1U Redundant Power Supply 80 Plus Platinum"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Функция горячей замены БП",
+            "value": "Да"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Тип памяти SDRAM",
+            "value": "DDR4"
+          },
+          {
+            "category": "M.2",
+            "name": "Кол-во M.2",
+            "value": "1"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 22110",
+            "value": "да"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 2280",
+            "value": "да"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "Тип сокета",
+            "value": "LGA 3647"
+          },
+          {
+            "category": "Задняя панель",
+            "name": "2,0",
+            "value": "2"
+          },
+          {
+            "category": "Задняя панель",
+            "name": "3,0",
+            "value": "2"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "max TDP",
+            "value": "165 W"
+          },
+          {
+            "category": "Графика",
+            "name": "Интегрированный IPMI",
+            "value": "Да"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Кол-во слотов DIMM",
+            "value": "6"
+          },
+          {
+            "category": "Встроенный сетевой интерфейс RJ45",
+            "name": "Кол-во портов RJ45 10Gbs",
+            "value": "2"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Максимальная частота",
+            "value": "2666"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Максимальный объем памяти",
+            "value": "768"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "LRDIMM",
+            "value": "да"
+          },
+          {
+            "category": "Физические параметры мат. платы",
+            "name": "Мат. плата категории WIO",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "ECC",
+            "value": "да"
+          },
+          {
+            "category": "Дисковый контроллер",
+            "name": "SuperDOM",
+            "value": "2"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "Кол-во процессоров",
+            "value": "1"
+          },
+          {
+            "category": "Дисковый контроллер",
+            "name": "SATA",
+            "value": "10"
+          },
+          {
+            "category": "Основное мат. плата",
+            "name": "Chipset",
+            "value": "Intel® C622 chipset"
+          },
+          {
+            "category": "PCI-E 3.0 WIO slot",
+            "name": "PCI-E 3.0 x32 WIO left slot",
+            "value": "да"
+          },
+          {
+            "category": "Форм-фактор",
+            "name": "StandardP DIMM",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 0",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 1",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 10",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 5",
+            "value": "да"
+          },
+          {
+            "category": "PCI-E 3.0 WIO slot",
+            "name": "PCI-E 3.0 x8 WIO right slot",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "3DS",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "RDIMM",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "UDIMM",
+            "value": "да"
+          },
+          {
+            "category": "M.2",
+            "name": "M.2 интерфейс PIC-E",
+            "value": "1"
+          },
+          {
+            "category": "M.2",
+            "name": "M.2 интерфейс SATA",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "id": 206,
+        "name": "X11SPW-TF",
+        "category": "Материнская плата",
+        "attributes": [
+          {
+            "category": "Hot-swap",
+            "name": "2,5\"",
+            "value": "8"
+          },
+          {
+            "category": "Кол-во отсеков под слоты расширения",
+            "name": "LowProfile слоты корпуса",
+            "value": "1"
+          },
+          {
+            "category": "Физические параметры корпуса",
+            "name": "Форм-фактор шасси",
+            "value": "Rack 1U"
+          },
+          {
+            "category": "Rizer с макс. кол-вом подключаемых устройств",
+            "name": "Кол-во устр. для подкл. через rizer",
+            "value": "3"
+          },
+          {
+            "category": "Физические параметры корпуса",
+            "name": "Корпус категории WIO",
+            "value": "да"
+          },
+          {
+            "category": "Основное корпус",
+            "name": "Материнская плата",
+            "value": "X11SPW-TF"
+          },
+          {
+            "category": "Кол-во отсеков под слоты расширения",
+            "name": "FullHeight&Full-Length  слоты корпуса",
+            "value": "2"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Кол-во БП",
+            "value": "2"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Модель БП",
+            "value": "750W 1U Redundant Power Supply 80 Plus Platinum"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Функция горячей замены БП",
+            "value": "Да"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Тип памяти SDRAM",
+            "value": "DDR4"
+          },
+          {
+            "category": "M.2",
+            "name": "Кол-во M.2",
+            "value": "1"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 22110",
+            "value": "да"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 2280",
+            "value": "да"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "Тип сокета",
+            "value": "LGA 3647"
+          },
+          {
+            "category": "Задняя панель",
+            "name": "2,0",
+            "value": "2"
+          },
+          {
+            "category": "Задняя панель",
+            "name": "3,0",
+            "value": "2"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "max TDP",
+            "value": "165 W"
+          },
+          {
+            "category": "Графика",
+            "name": "Интегрированный IPMI",
+            "value": "Да"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Кол-во слотов DIMM",
+            "value": "6"
+          },
+          {
+            "category": "Встроенный сетевой интерфейс RJ45",
+            "name": "Кол-во портов RJ45 10Gbs",
+            "value": "2"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Максимальная частота",
+            "value": "2666"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Максимальный объем памяти",
+            "value": "768"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "LRDIMM",
+            "value": "да"
+          },
+          {
+            "category": "Физические параметры мат. платы",
+            "name": "Мат. плата категории WIO",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "ECC",
+            "value": "да"
+          },
+          {
+            "category": "Дисковый контроллер",
+            "name": "SuperDOM",
+            "value": "2"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "Кол-во процессоров",
+            "value": "1"
+          },
+          {
+            "category": "Дисковый контроллер",
+            "name": "SATA",
+            "value": "10"
+          },
+          {
+            "category": "Основное мат. плата",
+            "name": "Chipset",
+            "value": "Intel® C622 chipset"
+          },
+          {
+            "category": "PCI-E 3.0 WIO slot",
+            "name": "PCI-E 3.0 x32 WIO left slot",
+            "value": "да"
+          },
+          {
+            "category": "Форм-фактор",
+            "name": "StandardP DIMM",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 0",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 1",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 10",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 5",
+            "value": "да"
+          },
+          {
+            "category": "PCI-E 3.0 WIO slot",
+            "name": "PCI-E 3.0 x8 WIO right slot",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "3DS",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "RDIMM",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "UDIMM",
+            "value": "да"
+          },
+          {
+            "category": "M.2",
+            "name": "M.2 интерфейс PIC-E",
+            "value": "1"
+          },
+          {
+            "category": "M.2",
+            "name": "M.2 интерфейс SATA",
+            "value": "1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "TA1106",
+    "components": [
+      {
+        "id": 216,
+        "name": "113TQ-R700WB",
+        "category": "Корпус",
+        "attributes": [
+          {
+            "category": "Hot-swap",
+            "name": "2,5\"",
+            "value": "8"
+          },
+          {
+            "category": "Кол-во отсеков под слоты расширения",
+            "name": "LowProfile слоты корпуса",
+            "value": "1"
+          },
+          {
+            "category": "Физические параметры корпуса",
+            "name": "Форм-фактор шасси",
+            "value": "Rack 1U"
+          },
+          {
+            "category": "Rizer с макс. кол-вом подключаемых устройств",
+            "name": "Кол-во устр. для подкл. через rizer",
+            "value": "3"
+          },
+          {
+            "category": "Физические параметры корпуса",
+            "name": "Корпус категории WIO",
+            "value": "да"
+          },
+          {
+            "category": "Основное корпус",
+            "name": "Материнская плата",
+            "value": "X11SPW-CTF"
+          },
+          {
+            "category": "Кол-во отсеков под слоты расширения",
+            "name": "FullHeight&Full-Length  слоты корпуса",
+            "value": "2"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Кол-во БП",
+            "value": "2"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Модель БП",
+            "value": "750W 1U Redundant Power Supply 80 Plus Platinum"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Функция горячей замены БП",
+            "value": "Да"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Тип памяти SDRAM",
+            "value": "DDR4"
+          },
+          {
+            "category": "M.2",
+            "name": "Кол-во M.2",
+            "value": "1"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 22110",
+            "value": "да"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 2280",
+            "value": "да"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "Тип сокета",
+            "value": "LGA 3647"
+          },
+          {
+            "category": "Задняя панель",
+            "name": "2,0",
+            "value": "2"
+          },
+          {
+            "category": "Дисковый контроллер",
+            "name": "SAS",
+            "value": "4"
+          },
+          {
+            "category": "Задняя панель",
+            "name": "3,0",
+            "value": "2"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "max TDP",
+            "value": "165 W"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Кол-во слотов DIMM",
+            "value": "6"
+          },
+          {
+            "category": "Встроенный сетевой интерфейс RJ45",
+            "name": "Кол-во портов RJ45 10Gbs",
+            "value": "2"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Максимальная частота",
+            "value": "2666"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Максимальный объем памяти",
+            "value": "768"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "LRDIMM",
+            "value": "да"
+          },
+          {
+            "category": "Физические параметры мат. платы",
+            "name": "Мат. плата категории WIO",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "ECC",
+            "value": "да"
+          },
+          {
+            "category": "Дисковый контроллер",
+            "name": "SuperDOM",
+            "value": "2"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "Кол-во процессоров",
+            "value": "1"
+          },
+          {
+            "category": "Дисковый контроллер",
+            "name": "SATA",
+            "value": "10"
+          },
+          {
+            "category": "Основное мат. плата",
+            "name": "Chipset",
+            "value": "Intel® C622 chipset"
+          },
+          {
+            "category": "PCI-E 3.0 WIO slot",
+            "name": "PCI-E 3.0 x32 WIO left slot",
+            "value": "да"
+          },
+          {
+            "category": "Форм-фактор",
+            "name": "StandardP DIMM",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 0",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 1",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 10",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 5",
+            "value": "да"
+          },
+          {
+            "category": "PCI-E 3.0 WIO slot",
+            "name": "PCI-E 3.0 x8 WIO right slot",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "3DS",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "RDIMM",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "UDIMM",
+            "value": "да"
+          },
+          {
+            "category": "M.2",
+            "name": "M.2 интерфейс PIC-E",
+            "value": "1"
+          },
+          {
+            "category": "M.2",
+            "name": "M.2 интерфейс SATA",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "id": 207,
+        "name": "X11SPW-CTF",
+        "category": "Материнская плата",
+        "attributes": [
+          {
+            "category": "Hot-swap",
+            "name": "2,5\"",
+            "value": "8"
+          },
+          {
+            "category": "Кол-во отсеков под слоты расширения",
+            "name": "LowProfile слоты корпуса",
+            "value": "1"
+          },
+          {
+            "category": "Физические параметры корпуса",
+            "name": "Форм-фактор шасси",
+            "value": "Rack 1U"
+          },
+          {
+            "category": "Rizer с макс. кол-вом подключаемых устройств",
+            "name": "Кол-во устр. для подкл. через rizer",
+            "value": "3"
+          },
+          {
+            "category": "Физические параметры корпуса",
+            "name": "Корпус категории WIO",
+            "value": "да"
+          },
+          {
+            "category": "Основное корпус",
+            "name": "Материнская плата",
+            "value": "X11SPW-CTF"
+          },
+          {
+            "category": "Кол-во отсеков под слоты расширения",
+            "name": "FullHeight&Full-Length  слоты корпуса",
+            "value": "2"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Кол-во БП",
+            "value": "2"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Модель БП",
+            "value": "750W 1U Redundant Power Supply 80 Plus Platinum"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Функция горячей замены БП",
+            "value": "Да"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Тип памяти SDRAM",
+            "value": "DDR4"
+          },
+          {
+            "category": "M.2",
+            "name": "Кол-во M.2",
+            "value": "1"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 22110",
+            "value": "да"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 2280",
+            "value": "да"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "Тип сокета",
+            "value": "LGA 3647"
+          },
+          {
+            "category": "Задняя панель",
+            "name": "2,0",
+            "value": "2"
+          },
+          {
+            "category": "Дисковый контроллер",
+            "name": "SAS",
+            "value": "4"
+          },
+          {
+            "category": "Задняя панель",
+            "name": "3,0",
+            "value": "2"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "max TDP",
+            "value": "165 W"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Кол-во слотов DIMM",
+            "value": "6"
+          },
+          {
+            "category": "Встроенный сетевой интерфейс RJ45",
+            "name": "Кол-во портов RJ45 10Gbs",
+            "value": "2"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Максимальная частота",
+            "value": "2666"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Максимальный объем памяти",
+            "value": "768"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "LRDIMM",
+            "value": "да"
+          },
+          {
+            "category": "Физические параметры мат. платы",
+            "name": "Мат. плата категории WIO",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "ECC",
+            "value": "да"
+          },
+          {
+            "category": "Дисковый контроллер",
+            "name": "SuperDOM",
+            "value": "2"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "Кол-во процессоров",
+            "value": "1"
+          },
+          {
+            "category": "Дисковый контроллер",
+            "name": "SATA",
+            "value": "10"
+          },
+          {
+            "category": "Основное мат. плата",
+            "name": "Chipset",
+            "value": "Intel® C622 chipset"
+          },
+          {
+            "category": "PCI-E 3.0 WIO slot",
+            "name": "PCI-E 3.0 x32 WIO left slot",
+            "value": "да"
+          },
+          {
+            "category": "Форм-фактор",
+            "name": "StandardP DIMM",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 0",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 1",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 10",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 5",
+            "value": "да"
+          },
+          {
+            "category": "PCI-E 3.0 WIO slot",
+            "name": "PCI-E 3.0 x8 WIO right slot",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "3DS",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "RDIMM",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "UDIMM",
+            "value": "да"
+          },
+          {
+            "category": "M.2",
+            "name": "M.2 интерфейс PIC-E",
+            "value": "1"
+          },
+          {
+            "category": "M.2",
+            "name": "M.2 интерфейс SATA",
+            "value": "1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "TA1108",
+    "components": [
+      {
+        "id": 208,
+        "name": "X11DDW-NT",
+        "category": "Материнская плата",
+        "attributes": [
+          {
+            "category": "Оперативная память",
+            "name": "Тип памяти SDRAM",
+            "value": "DDR4"
+          },
+          {
+            "category": "M.2",
+            "name": "Кол-во M.2",
+            "value": "1"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 22110",
+            "value": "да"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 2280",
+            "value": "да"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 2260",
+            "value": "да"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "Тип сокета",
+            "value": "LGA 3647"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 2242",
+            "value": "да"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "max TDP",
+            "value": "165 W"
+          },
+          {
+            "category": "Задняя панель",
+            "name": "3,0",
+            "value": "4"
+          },
+          {
+            "category": "Дисковый контроллер",
+            "name": "U.2 NVMe",
+            "value": "4"
+          },
+          {
+            "category": "Слоты расширения",
+            "name": "Mezzanine / OCP slot",
+            "value": "1"
+          },
+          {
+            "category": "Графика",
+            "name": "Интегрированный IPMI",
+            "value": "Да"
+          },
+          {
+            "category": "Встроенный сетевой интерфейс RJ45",
+            "name": "Кол-во портов RJ45 10Gbs",
+            "value": "2"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Кол-во слотов DIMM",
+            "value": "12"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Максимальная частота",
+            "value": "2666"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Максимальный объем памяти",
+            "value": "1536"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "LRDIMM",
+            "value": "да"
+          },
+          {
+            "category": "Физические параметры мат. платы",
+            "name": "Мат. плата категории WIO",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "ECC",
+            "value": "да"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "Кол-во процессоров",
+            "value": "2"
+          },
+          {
+            "category": "Дисковый контроллер",
+            "name": "SATA",
+            "value": "14"
+          },
+          {
+            "category": "Основное мат. плата",
+            "name": "Chipset",
+            "value": "Intel® C622 chipset"
+          },
+          {
+            "category": "PCI-E 3.0 WIO slot",
+            "name": "PCI-E 3.0 x32 WIO left slot",
+            "value": "да"
+          },
+          {
+            "category": "Форм-фактор",
+            "name": "StandardP DIMM",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 0",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 1",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 10",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 5",
+            "value": "да"
+          },
+          {
+            "category": "PCI-E 3.0 WIO slot",
+            "name": "PCI-E 3.0 x16 WIO right slot",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "3DS",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "RDIMM",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "UDIMM",
+            "value": "да"
+          },
+          {
+            "category": "M.2",
+            "name": "M.2 интерфейс PIC-E",
+            "value": "1"
+          },
+          {
+            "category": "Hot-swap",
+            "name": "2,5\"",
+            "value": "8"
+          },
+          {
+            "category": "Кол-во отсеков под слоты расширения",
+            "name": "LowProfile слоты корпуса",
+            "value": "1"
+          },
+          {
+            "category": "Физические параметры корпуса",
+            "name": "Форм-фактор шасси",
+            "value": "Rack 1U"
+          },
+          {
+            "category": "Rizer с макс. кол-вом подключаемых устройств",
+            "name": "Кол-во устр. для подкл. через rizer",
+            "value": "3"
+          },
+          {
+            "category": "Физические параметры корпуса",
+            "name": "Корпус категории WIO",
+            "value": "да"
+          },
+          {
+            "category": "Основное корпус",
+            "name": "Материнская плата",
+            "value": "X11DDW-NT"
+          },
+          {
+            "category": "Кол-во отсеков под слоты расширения",
+            "name": "FullHeight&Full-Length  слоты корпуса",
+            "value": "2"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Кол-во БП",
+            "value": "2"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Модель БП",
+            "value": "750W 1U Redundant Power Supply 80 Plus Platinum"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Функция горячей замены БП",
+            "value": "Да"
+          }
+        ]
+      },
+      {
+        "id": 218,
+        "name": "113TQ-R700WB",
+        "category": "Корпус",
+        "attributes": [
+          {
+            "category": "Оперативная память",
+            "name": "Тип памяти SDRAM",
+            "value": "DDR4"
+          },
+          {
+            "category": "M.2",
+            "name": "Кол-во M.2",
+            "value": "1"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 22110",
+            "value": "да"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 2280",
+            "value": "да"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 2260",
+            "value": "да"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "Тип сокета",
+            "value": "LGA 3647"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 2242",
+            "value": "да"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "max TDP",
+            "value": "165 W"
+          },
+          {
+            "category": "Задняя панель",
+            "name": "3,0",
+            "value": "4"
+          },
+          {
+            "category": "Дисковый контроллер",
+            "name": "U.2 NVMe",
+            "value": "4"
+          },
+          {
+            "category": "Слоты расширения",
+            "name": "Mezzanine / OCP slot",
+            "value": "1"
+          },
+          {
+            "category": "Графика",
+            "name": "Интегрированный IPMI",
+            "value": "Да"
+          },
+          {
+            "category": "Встроенный сетевой интерфейс RJ45",
+            "name": "Кол-во портов RJ45 10Gbs",
+            "value": "2"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Кол-во слотов DIMM",
+            "value": "12"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Максимальная частота",
+            "value": "2666"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Максимальный объем памяти",
+            "value": "1536"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "LRDIMM",
+            "value": "да"
+          },
+          {
+            "category": "Физические параметры мат. платы",
+            "name": "Мат. плата категории WIO",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "ECC",
+            "value": "да"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "Кол-во процессоров",
+            "value": "2"
+          },
+          {
+            "category": "Дисковый контроллер",
+            "name": "SATA",
+            "value": "14"
+          },
+          {
+            "category": "Основное мат. плата",
+            "name": "Chipset",
+            "value": "Intel® C622 chipset"
+          },
+          {
+            "category": "PCI-E 3.0 WIO slot",
+            "name": "PCI-E 3.0 x32 WIO left slot",
+            "value": "да"
+          },
+          {
+            "category": "Форм-фактор",
+            "name": "StandardP DIMM",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 0",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 1",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 10",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 5",
+            "value": "да"
+          },
+          {
+            "category": "PCI-E 3.0 WIO slot",
+            "name": "PCI-E 3.0 x16 WIO right slot",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "3DS",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "RDIMM",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "UDIMM",
+            "value": "да"
+          },
+          {
+            "category": "M.2",
+            "name": "M.2 интерфейс PIC-E",
+            "value": "1"
+          },
+          {
+            "category": "Hot-swap",
+            "name": "2,5\"",
+            "value": "8"
+          },
+          {
+            "category": "Кол-во отсеков под слоты расширения",
+            "name": "LowProfile слоты корпуса",
+            "value": "1"
+          },
+          {
+            "category": "Физические параметры корпуса",
+            "name": "Форм-фактор шасси",
+            "value": "Rack 1U"
+          },
+          {
+            "category": "Rizer с макс. кол-вом подключаемых устройств",
+            "name": "Кол-во устр. для подкл. через rizer",
+            "value": "3"
+          },
+          {
+            "category": "Физические параметры корпуса",
+            "name": "Корпус категории WIO",
+            "value": "да"
+          },
+          {
+            "category": "Основное корпус",
+            "name": "Материнская плата",
+            "value": "X11DDW-NT"
+          },
+          {
+            "category": "Кол-во отсеков под слоты расширения",
+            "name": "FullHeight&Full-Length  слоты корпуса",
+            "value": "2"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Кол-во БП",
+            "value": "2"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Модель БП",
+            "value": "750W 1U Redundant Power Supply 80 Plus Platinum"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Функция горячей замены БП",
+            "value": "Да"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "TA1107",
+    "components": [
+      {
+        "id": 196,
+        "name": "X11DDW-L",
+        "category": "Материнская плата",
+        "attributes": [
+          {
+            "category": "Оперативная память",
+            "name": "Тип памяти SDRAM",
+            "value": "DDR4"
+          },
+          {
+            "category": "M.2",
+            "name": "Кол-во M.2",
+            "value": "1"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 22110",
+            "value": "да"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 2280",
+            "value": "да"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 2260",
+            "value": "да"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "Тип сокета",
+            "value": "LGA 3647"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 2242",
+            "value": "да"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "max TDP",
+            "value": "165 W"
+          },
+          {
+            "category": "Задняя панель",
+            "name": "3,0",
+            "value": "4"
+          },
+          {
+            "category": "Слоты расширения",
+            "name": "Mezzanine / OCP slot",
+            "value": "1"
+          },
+          {
+            "category": "Графика",
+            "name": "Интегрированный IPMI",
+            "value": "Да"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Кол-во слотов DIMM",
+            "value": "12"
+          },
+          {
+            "category": "Встроенный сетевой интерфейс RJ45",
+            "name": "Кол-во портов RJ45 1Gbs",
+            "value": "2"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Максимальная частота",
+            "value": "2666"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Максимальный объем памяти",
+            "value": "1536"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "LRDIMM",
+            "value": "да"
+          },
+          {
+            "category": "Физические параметры мат. платы",
+            "name": "Мат. плата категории WIO",
+            "value": "да"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "Кол-во процессоров",
+            "value": "2"
+          },
+          {
+            "category": "Дисковый контроллер",
+            "name": "SATA",
+            "value": "14"
+          },
+          {
+            "category": "Основное мат. плата",
+            "name": "Chipset",
+            "value": "Intel® C621 chipset"
+          },
+          {
+            "category": "PCI-E 3.0 WIO slot",
+            "name": "PCI-E 3.0 x32 WIO left slot",
+            "value": "да"
+          },
+          {
+            "category": "Форм-фактор",
+            "name": "StandardP DIMM",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 0",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 1",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 10",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 5",
+            "value": "да"
+          },
+          {
+            "category": "PCI-E 3.0 WIO slot",
+            "name": "PCI-E 3.0 x16 WIO right slot",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "3DS",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "RDIMM",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "UDIMM",
+            "value": "да"
+          },
+          {
+            "category": "M.2",
+            "name": "M.2 интерфейс PIC-E",
+            "value": "1"
+          },
+          {
+            "category": "Hot-swap",
+            "name": "2,5\"",
+            "value": "8"
+          },
+          {
+            "category": "Кол-во отсеков под слоты расширения",
+            "name": "LowProfile слоты корпуса",
+            "value": "1"
+          },
+          {
+            "category": "Физические параметры корпуса",
+            "name": "Форм-фактор шасси",
+            "value": "Rack 1U"
+          },
+          {
+            "category": "Rizer с макс. кол-вом подключаемых устройств",
+            "name": "Кол-во устр. для подкл. через rizer",
+            "value": "3"
+          },
+          {
+            "category": "Физические параметры корпуса",
+            "name": "Корпус категории WIO",
+            "value": "да"
+          },
+          {
+            "category": "Основное корпус",
+            "name": "Материнская плата",
+            "value": "X11DDW-L"
+          },
+          {
+            "category": "Кол-во отсеков под слоты расширения",
+            "name": "FullHeight&Full-Length  слоты корпуса",
+            "value": "2"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Кол-во БП",
+            "value": "2"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Модель БП",
+            "value": "750W 1U Redundant Power Supply 80 Plus Platinum"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Функция горячей замены БП",
+            "value": "Да"
+          }
+        ]
+      },
+      {
+        "id": 217,
+        "name": "113TQ-R700WB",
+        "category": "Корпус",
+        "attributes": [
+          {
+            "category": "Оперативная память",
+            "name": "Тип памяти SDRAM",
+            "value": "DDR4"
+          },
+          {
+            "category": "M.2",
+            "name": "Кол-во M.2",
+            "value": "1"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 22110",
+            "value": "да"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 2280",
+            "value": "да"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 2260",
+            "value": "да"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "Тип сокета",
+            "value": "LGA 3647"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 2242",
+            "value": "да"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "max TDP",
+            "value": "165 W"
+          },
+          {
+            "category": "Задняя панель",
+            "name": "3,0",
+            "value": "4"
+          },
+          {
+            "category": "Слоты расширения",
+            "name": "Mezzanine / OCP slot",
+            "value": "1"
+          },
+          {
+            "category": "Графика",
+            "name": "Интегрированный IPMI",
+            "value": "Да"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Кол-во слотов DIMM",
+            "value": "12"
+          },
+          {
+            "category": "Встроенный сетевой интерфейс RJ45",
+            "name": "Кол-во портов RJ45 1Gbs",
+            "value": "2"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Максимальная частота",
+            "value": "2666"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Максимальный объем памяти",
+            "value": "1536"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "LRDIMM",
+            "value": "да"
+          },
+          {
+            "category": "Физические параметры мат. платы",
+            "name": "Мат. плата категории WIO",
+            "value": "да"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "Кол-во процессоров",
+            "value": "2"
+          },
+          {
+            "category": "Дисковый контроллер",
+            "name": "SATA",
+            "value": "14"
+          },
+          {
+            "category": "Основное мат. плата",
+            "name": "Chipset",
+            "value": "Intel® C621 chipset"
+          },
+          {
+            "category": "PCI-E 3.0 WIO slot",
+            "name": "PCI-E 3.0 x32 WIO left slot",
+            "value": "да"
+          },
+          {
+            "category": "Форм-фактор",
+            "name": "StandardP DIMM",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 0",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 1",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 10",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 5",
+            "value": "да"
+          },
+          {
+            "category": "PCI-E 3.0 WIO slot",
+            "name": "PCI-E 3.0 x16 WIO right slot",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "3DS",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "RDIMM",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "UDIMM",
+            "value": "да"
+          },
+          {
+            "category": "M.2",
+            "name": "M.2 интерфейс PIC-E",
+            "value": "1"
+          },
+          {
+            "category": "Hot-swap",
+            "name": "2,5\"",
+            "value": "8"
+          },
+          {
+            "category": "Кол-во отсеков под слоты расширения",
+            "name": "LowProfile слоты корпуса",
+            "value": "1"
+          },
+          {
+            "category": "Физические параметры корпуса",
+            "name": "Форм-фактор шасси",
+            "value": "Rack 1U"
+          },
+          {
+            "category": "Rizer с макс. кол-вом подключаемых устройств",
+            "name": "Кол-во устр. для подкл. через rizer",
+            "value": "3"
+          },
+          {
+            "category": "Физические параметры корпуса",
+            "name": "Корпус категории WIO",
+            "value": "да"
+          },
+          {
+            "category": "Основное корпус",
+            "name": "Материнская плата",
+            "value": "X11DDW-L"
+          },
+          {
+            "category": "Кол-во отсеков под слоты расширения",
+            "name": "FullHeight&Full-Length  слоты корпуса",
+            "value": "2"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Кол-во БП",
+            "value": "2"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Модель БП",
+            "value": "750W 1U Redundant Power Supply 80 Plus Platinum"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Функция горячей замены БП",
+            "value": "Да"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "TA1112",
+    "components": [
+      {
+        "id": 172,
+        "name": "116TQ-R706WB",
+        "category": "Корпус",
+        "attributes": [
+          {
+            "category": "Кол-во отсеков под слоты расширения",
+            "name": "LowProfile слоты корпуса",
+            "value": "1"
+          },
+          {
+            "category": "Физические параметры корпуса",
+            "name": "Форм-фактор шасси",
+            "value": "Rack 1U"
+          },
+          {
+            "category": "Hot-swap",
+            "name": "2,5\"",
+            "value": "10"
+          },
+          {
+            "category": "Rizer с макс. кол-вом подключаемых устройств",
+            "name": "Кол-во устр. для подкл. через rizer",
+            "value": "3"
+          },
+          {
+            "category": "Физические параметры корпуса",
+            "name": "Корпус категории WIO",
+            "value": "да"
+          },
+          {
+            "category": "Основное корпус",
+            "name": "Материнская плата",
+            "value": "X11DDW-NT"
+          },
+          {
+            "category": "Кол-во отсеков под слоты расширения",
+            "name": "FullHeight&Full-Length  слоты корпуса",
+            "value": "2"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Кол-во БП",
+            "value": "2"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Модель БП",
+            "value": "750W 1U Redundant Power Supply 80 Plus Platinum"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Функция горячей замены БП",
+            "value": "Да"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Тип памяти SDRAM",
+            "value": "DDR4"
+          },
+          {
+            "category": "M.2",
+            "name": "Кол-во M.2",
+            "value": "1"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 22110",
+            "value": "да"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 2280",
+            "value": "да"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 2260",
+            "value": "да"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "Тип сокета",
+            "value": "LGA 3647"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 2242",
+            "value": "да"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "max TDP",
+            "value": "165 W"
+          },
+          {
+            "category": "Задняя панель",
+            "name": "3,0",
+            "value": "4"
+          },
+          {
+            "category": "Дисковый контроллер",
+            "name": "U.2 NVMe",
+            "value": "4"
+          },
+          {
+            "category": "Слоты расширения",
+            "name": "Mezzanine / OCP slot",
+            "value": "1"
+          },
+          {
+            "category": "Графика",
+            "name": "Интегрированный IPMI",
+            "value": "Да"
+          },
+          {
+            "category": "Встроенный сетевой интерфейс RJ45",
+            "name": "Кол-во портов RJ45 10Gbs",
+            "value": "2"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Кол-во слотов DIMM",
+            "value": "12"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Максимальная частота",
+            "value": "2666"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Максимальный объем памяти",
+            "value": "1536"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "LRDIMM",
+            "value": "да"
+          },
+          {
+            "category": "Физические параметры мат. платы",
+            "name": "Мат. плата категории WIO",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "ECC",
+            "value": "да"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "Кол-во процессоров",
+            "value": "2"
+          },
+          {
+            "category": "Дисковый контроллер",
+            "name": "SATA",
+            "value": "14"
+          },
+          {
+            "category": "Основное мат. плата",
+            "name": "Chipset",
+            "value": "Intel® C622 chipset"
+          },
+          {
+            "category": "PCI-E 3.0 WIO slot",
+            "name": "PCI-E 3.0 x32 WIO left slot",
+            "value": "да"
+          },
+          {
+            "category": "Форм-фактор",
+            "name": "StandardP DIMM",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 0",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 1",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 10",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 5",
+            "value": "да"
+          },
+          {
+            "category": "PCI-E 3.0 WIO slot",
+            "name": "PCI-E 3.0 x16 WIO right slot",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "3DS",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "RDIMM",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "UDIMM",
+            "value": "да"
+          },
+          {
+            "category": "M.2",
+            "name": "M.2 интерфейс PIC-E",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "id": 208,
+        "name": "X11DDW-NT",
+        "category": "Материнская плата",
+        "attributes": [
+          {
+            "category": "Кол-во отсеков под слоты расширения",
+            "name": "LowProfile слоты корпуса",
+            "value": "1"
+          },
+          {
+            "category": "Физические параметры корпуса",
+            "name": "Форм-фактор шасси",
+            "value": "Rack 1U"
+          },
+          {
+            "category": "Hot-swap",
+            "name": "2,5\"",
+            "value": "10"
+          },
+          {
+            "category": "Rizer с макс. кол-вом подключаемых устройств",
+            "name": "Кол-во устр. для подкл. через rizer",
+            "value": "3"
+          },
+          {
+            "category": "Физические параметры корпуса",
+            "name": "Корпус категории WIO",
+            "value": "да"
+          },
+          {
+            "category": "Основное корпус",
+            "name": "Материнская плата",
+            "value": "X11DDW-NT"
+          },
+          {
+            "category": "Кол-во отсеков под слоты расширения",
+            "name": "FullHeight&Full-Length  слоты корпуса",
+            "value": "2"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Кол-во БП",
+            "value": "2"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Модель БП",
+            "value": "750W 1U Redundant Power Supply 80 Plus Platinum"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Функция горячей замены БП",
+            "value": "Да"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Тип памяти SDRAM",
+            "value": "DDR4"
+          },
+          {
+            "category": "M.2",
+            "name": "Кол-во M.2",
+            "value": "1"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 22110",
+            "value": "да"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 2280",
+            "value": "да"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 2260",
+            "value": "да"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "Тип сокета",
+            "value": "LGA 3647"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 2242",
+            "value": "да"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "max TDP",
+            "value": "165 W"
+          },
+          {
+            "category": "Задняя панель",
+            "name": "3,0",
+            "value": "4"
+          },
+          {
+            "category": "Дисковый контроллер",
+            "name": "U.2 NVMe",
+            "value": "4"
+          },
+          {
+            "category": "Слоты расширения",
+            "name": "Mezzanine / OCP slot",
+            "value": "1"
+          },
+          {
+            "category": "Графика",
+            "name": "Интегрированный IPMI",
+            "value": "Да"
+          },
+          {
+            "category": "Встроенный сетевой интерфейс RJ45",
+            "name": "Кол-во портов RJ45 10Gbs",
+            "value": "2"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Кол-во слотов DIMM",
+            "value": "12"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Максимальная частота",
+            "value": "2666"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Максимальный объем памяти",
+            "value": "1536"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "LRDIMM",
+            "value": "да"
+          },
+          {
+            "category": "Физические параметры мат. платы",
+            "name": "Мат. плата категории WIO",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "ECC",
+            "value": "да"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "Кол-во процессоров",
+            "value": "2"
+          },
+          {
+            "category": "Дисковый контроллер",
+            "name": "SATA",
+            "value": "14"
+          },
+          {
+            "category": "Основное мат. плата",
+            "name": "Chipset",
+            "value": "Intel® C622 chipset"
+          },
+          {
+            "category": "PCI-E 3.0 WIO slot",
+            "name": "PCI-E 3.0 x32 WIO left slot",
+            "value": "да"
+          },
+          {
+            "category": "Форм-фактор",
+            "name": "StandardP DIMM",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 0",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 1",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 10",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 5",
+            "value": "да"
+          },
+          {
+            "category": "PCI-E 3.0 WIO slot",
+            "name": "PCI-E 3.0 x16 WIO right slot",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "3DS",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "RDIMM",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "UDIMM",
+            "value": "да"
+          },
+          {
+            "category": "M.2",
+            "name": "M.2 интерфейс PIC-E",
+            "value": "1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "TA1203",
+    "components": [
+      {
+        "id": 319,
+        "name": "825TQC-R740LPB",
+        "category": "Корпус",
+        "attributes": [
+          {
+            "category": "Кол-во отсеков под слоты расширения",
+            "name": "LowProfile слоты корпуса",
+            "value": "7"
+          },
+          {
+            "category": "Hot-swap",
+            "name": "3,5\"",
+            "value": "8"
+          },
+          {
+            "category": "Физические параметры корпуса",
+            "name": "Форм-фактор шасси",
+            "value": "Rack 2U"
+          },
+          {
+            "category": "Основное корпус",
+            "name": "Материнская плата",
+            "value": "X11SPL-F"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Кол-во БП",
+            "value": "2"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Модель БП",
+            "value": "740W 1U Redundant Power Supply 80 Plus Platinum"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Функция горячей замены БП",
+            "value": "Да"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Тип памяти SDRAM",
+            "value": "DDR4"
+          },
+          {
+            "category": "M.2",
+            "name": "Кол-во M.2",
+            "value": "1"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 22110",
+            "value": "да"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 2280",
+            "value": "да"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "Тип сокета",
+            "value": "LGA 3647"
+          },
+          {
+            "category": "Задняя панель",
+            "name": "2,0",
+            "value": "2"
+          },
+          {
+            "category": "Слоты расширения",
+            "name": "PCI-E x 8",
+            "value": "5"
+          },
+          {
+            "category": "Слоты расширения",
+            "name": "PCI-E x 16",
+            "value": "2"
+          },
+          {
+            "category": "Задняя панель",
+            "name": "3,0",
+            "value": "2"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "max TDP",
+            "value": "165 W"
+          },
+          {
+            "category": "Дисковый контроллер",
+            "name": "SATA",
+            "value": "8"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Кол-во слотов DIMM",
+            "value": "8"
+          },
+          {
+            "category": "Встроенный сетевой интерфейс RJ45",
+            "name": "Кол-во портов RJ45 1Gbs",
+            "value": "2"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Максимальная частота",
+            "value": "2666"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Максимальный объем памяти",
+            "value": "1024"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "LRDIMM",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "ECC",
+            "value": "да"
+          },
+          {
+            "category": "Дисковый контроллер",
+            "name": "SuperDOM",
+            "value": "2"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "Кол-во процессоров",
+            "value": "1"
+          },
+          {
+            "category": "Основное мат. плата",
+            "name": "Chipset",
+            "value": "Intel® C621 chipset"
+          },
+          {
+            "category": "Форм-фактор",
+            "name": "StandardP DIMM",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 0",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 1",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 10",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 5",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "3DS",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "RDIMM",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "UDIMM",
+            "value": "да"
+          },
+          {
+            "category": "M.2",
+            "name": "M.2 интерфейс PIC-E",
+            "value": "1"
+          },
+          {
+            "category": "M.2",
+            "name": "M.2 интерфейс SATA",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "id": 214,
+        "name": "X11SPL-F",
+        "category": "Материнская плата",
+        "attributes": [
+          {
+            "category": "Кол-во отсеков под слоты расширения",
+            "name": "LowProfile слоты корпуса",
+            "value": "7"
+          },
+          {
+            "category": "Hot-swap",
+            "name": "3,5\"",
+            "value": "8"
+          },
+          {
+            "category": "Физические параметры корпуса",
+            "name": "Форм-фактор шасси",
+            "value": "Rack 2U"
+          },
+          {
+            "category": "Основное корпус",
+            "name": "Материнская плата",
+            "value": "X11SPL-F"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Кол-во БП",
+            "value": "2"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Модель БП",
+            "value": "740W 1U Redundant Power Supply 80 Plus Platinum"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Функция горячей замены БП",
+            "value": "Да"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Тип памяти SDRAM",
+            "value": "DDR4"
+          },
+          {
+            "category": "M.2",
+            "name": "Кол-во M.2",
+            "value": "1"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 22110",
+            "value": "да"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 2280",
+            "value": "да"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "Тип сокета",
+            "value": "LGA 3647"
+          },
+          {
+            "category": "Задняя панель",
+            "name": "2,0",
+            "value": "2"
+          },
+          {
+            "category": "Слоты расширения",
+            "name": "PCI-E x 8",
+            "value": "5"
+          },
+          {
+            "category": "Слоты расширения",
+            "name": "PCI-E x 16",
+            "value": "2"
+          },
+          {
+            "category": "Задняя панель",
+            "name": "3,0",
+            "value": "2"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "max TDP",
+            "value": "165 W"
+          },
+          {
+            "category": "Дисковый контроллер",
+            "name": "SATA",
+            "value": "8"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Кол-во слотов DIMM",
+            "value": "8"
+          },
+          {
+            "category": "Встроенный сетевой интерфейс RJ45",
+            "name": "Кол-во портов RJ45 1Gbs",
+            "value": "2"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Максимальная частота",
+            "value": "2666"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Максимальный объем памяти",
+            "value": "1024"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "LRDIMM",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "ECC",
+            "value": "да"
+          },
+          {
+            "category": "Дисковый контроллер",
+            "name": "SuperDOM",
+            "value": "2"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "Кол-во процессоров",
+            "value": "1"
+          },
+          {
+            "category": "Основное мат. плата",
+            "name": "Chipset",
+            "value": "Intel® C621 chipset"
+          },
+          {
+            "category": "Форм-фактор",
+            "name": "StandardP DIMM",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 0",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 1",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 10",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 5",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "3DS",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "RDIMM",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "UDIMM",
+            "value": "да"
+          },
+          {
+            "category": "M.2",
+            "name": "M.2 интерфейс PIC-E",
+            "value": "1"
+          },
+          {
+            "category": "M.2",
+            "name": "M.2 интерфейс SATA",
+            "value": "1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "TA1202",
+    "components": [
+      {
+        "id": 318,
+        "name": "825TQC-R740LPB",
+        "category": "Корпус",
+        "attributes": [
+          {
+            "category": "Кол-во отсеков под слоты расширения",
+            "name": "LowProfile слоты корпуса",
+            "value": "7"
+          },
+          {
+            "category": "Hot-swap",
+            "name": "3,5\"",
+            "value": "8"
+          },
+          {
+            "category": "Физические параметры корпуса",
+            "name": "Форм-фактор шасси",
+            "value": "Rack 2U"
+          },
+          {
+            "category": "Основное корпус",
+            "name": "Материнская плата",
+            "value": "X11SPH-nCTPF"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Кол-во БП",
+            "value": "2"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Модель БП",
+            "value": "740W 1U Redundant Power Supply 80 Plus Platinum"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Функция горячей замены БП",
+            "value": "Да"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Тип памяти SDRAM",
+            "value": "DDR4"
+          },
+          {
+            "category": "M.2",
+            "name": "Кол-во M.2",
+            "value": "1"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 2280",
+            "value": "да"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "Тип сокета",
+            "value": "LGA 3647"
+          },
+          {
+            "category": "Задняя панель",
+            "name": "2,0",
+            "value": "2"
+          },
+          {
+            "category": "Слоты расширения",
+            "name": "PCI-E x 8",
+            "value": "3"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "max TDP",
+            "value": "205 W"
+          },
+          {
+            "category": "Дисковый контроллер",
+            "name": "SAS",
+            "value": "8"
+          },
+          {
+            "category": "Слоты расширения",
+            "name": "PCI-E x 16",
+            "value": "1"
+          },
+          {
+            "category": "Задняя панель",
+            "name": "3,0",
+            "value": "2"
+          },
+          {
+            "category": "Дисковый контроллер",
+            "name": "U.2 NVMe",
+            "value": "2"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Кол-во слотов DIMM",
+            "value": "8"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Максимальная частота",
+            "value": "2666"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Максимальный объем памяти",
+            "value": "1024"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "LRDIMM",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "ECC",
+            "value": "да"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "Кол-во процессоров",
+            "value": "1"
+          },
+          {
+            "category": "Дисковый контроллер",
+            "name": "SATA",
+            "value": "10"
+          },
+          {
+            "category": "Основное мат. плата",
+            "name": "Chipset",
+            "value": "Intel® C622 chipset"
+          },
+          {
+            "category": "Форм-фактор",
+            "name": "StandardP DIMM",
+            "value": "да"
+          },
+          {
+            "category": "Встроенный сетевой интерфейс SFP+",
+            "name": "Кол-во портов SFP+ 10Gbs",
+            "value": "2"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 0",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 1",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 10",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "3DS",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "RDIMM",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "UDIMM",
+            "value": "да"
+          },
+          {
+            "category": "M.2",
+            "name": "M.2 интерфейс PIC-E",
+            "value": "1"
+          },
+          {
+            "category": "M.2",
+            "name": "M.2 интерфейс SATA",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "id": 359,
+        "name": "X11SPH-nCTPF",
+        "category": "Материнская плата",
+        "attributes": [
+          {
+            "category": "Кол-во отсеков под слоты расширения",
+            "name": "LowProfile слоты корпуса",
+            "value": "7"
+          },
+          {
+            "category": "Hot-swap",
+            "name": "3,5\"",
+            "value": "8"
+          },
+          {
+            "category": "Физические параметры корпуса",
+            "name": "Форм-фактор шасси",
+            "value": "Rack 2U"
+          },
+          {
+            "category": "Основное корпус",
+            "name": "Материнская плата",
+            "value": "X11SPH-nCTPF"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Кол-во БП",
+            "value": "2"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Модель БП",
+            "value": "740W 1U Redundant Power Supply 80 Plus Platinum"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Функция горячей замены БП",
+            "value": "Да"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Тип памяти SDRAM",
+            "value": "DDR4"
+          },
+          {
+            "category": "M.2",
+            "name": "Кол-во M.2",
+            "value": "1"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 2280",
+            "value": "да"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "Тип сокета",
+            "value": "LGA 3647"
+          },
+          {
+            "category": "Задняя панель",
+            "name": "2,0",
+            "value": "2"
+          },
+          {
+            "category": "Слоты расширения",
+            "name": "PCI-E x 8",
+            "value": "3"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "max TDP",
+            "value": "205 W"
+          },
+          {
+            "category": "Дисковый контроллер",
+            "name": "SAS",
+            "value": "8"
+          },
+          {
+            "category": "Слоты расширения",
+            "name": "PCI-E x 16",
+            "value": "1"
+          },
+          {
+            "category": "Задняя панель",
+            "name": "3,0",
+            "value": "2"
+          },
+          {
+            "category": "Дисковый контроллер",
+            "name": "U.2 NVMe",
+            "value": "2"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Кол-во слотов DIMM",
+            "value": "8"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Максимальная частота",
+            "value": "2666"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Максимальный объем памяти",
+            "value": "1024"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "LRDIMM",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "ECC",
+            "value": "да"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "Кол-во процессоров",
+            "value": "1"
+          },
+          {
+            "category": "Дисковый контроллер",
+            "name": "SATA",
+            "value": "10"
+          },
+          {
+            "category": "Основное мат. плата",
+            "name": "Chipset",
+            "value": "Intel® C622 chipset"
+          },
+          {
+            "category": "Форм-фактор",
+            "name": "StandardP DIMM",
+            "value": "да"
+          },
+          {
+            "category": "Встроенный сетевой интерфейс SFP+",
+            "name": "Кол-во портов SFP+ 10Gbs",
+            "value": "2"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 0",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 1",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 10",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "3DS",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "RDIMM",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "UDIMM",
+            "value": "да"
+          },
+          {
+            "category": "M.2",
+            "name": "M.2 интерфейс PIC-E",
+            "value": "1"
+          },
+          {
+            "category": "M.2",
+            "name": "M.2 интерфейс SATA",
+            "value": "1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "TA1201",
+    "components": [
+      {
+        "id": 317,
+        "name": "825TQC-R740LPB",
+        "category": "Корпус",
+        "attributes": [
+          {
+            "category": "Кол-во отсеков под слоты расширения",
+            "name": "LowProfile слоты корпуса",
+            "value": "7"
+          },
+          {
+            "category": "Hot-swap",
+            "name": "3,5\"",
+            "value": "8"
+          },
+          {
+            "category": "Физические параметры корпуса",
+            "name": "Форм-фактор шасси",
+            "value": "Rack 2U"
+          },
+          {
+            "category": "Основное корпус",
+            "name": "Материнская плата",
+            "value": "X11SPi-TF"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Кол-во БП",
+            "value": "2"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Модель БП",
+            "value": "740W 1U Redundant Power Supply 80 Plus Platinum"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Функция горячей замены БП",
+            "value": "Да"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Тип памяти SDRAM",
+            "value": "DDR4"
+          },
+          {
+            "category": "M.2",
+            "name": "Кол-во M.2",
+            "value": "1"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 22110",
+            "value": "да"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 2280",
+            "value": "да"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "Тип сокета",
+            "value": "LGA 3647"
+          },
+          {
+            "category": "Задняя панель",
+            "name": "2,0",
+            "value": "2"
+          },
+          {
+            "category": "Слоты расширения",
+            "name": "PCI-E x 8",
+            "value": "3"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "max TDP",
+            "value": "205 W"
+          },
+          {
+            "category": "Слоты расширения",
+            "name": "PCI-E x 16",
+            "value": "2"
+          },
+          {
+            "category": "Задняя панель",
+            "name": "3,0",
+            "value": "2"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Кол-во слотов DIMM",
+            "value": "8"
+          },
+          {
+            "category": "Встроенный сетевой интерфейс RJ45",
+            "name": "Кол-во портов RJ45 10Gbs",
+            "value": "2"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Максимальная частота",
+            "value": "2666"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Максимальный объем памяти",
+            "value": "1024"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "LRDIMM",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "ECC",
+            "value": "да"
+          },
+          {
+            "category": "Дисковый контроллер",
+            "name": "SuperDOM",
+            "value": "2"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "Кол-во процессоров",
+            "value": "1"
+          },
+          {
+            "category": "Дисковый контроллер",
+            "name": "SATA",
+            "value": "10"
+          },
+          {
+            "category": "Основное мат. плата",
+            "name": "Chipset",
+            "value": "Intel® C622 chipset"
+          },
+          {
+            "category": "Форм-фактор",
+            "name": "StandardP DIMM",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 0",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 1",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 10",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 5",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "3DS",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "RDIMM",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "UDIMM",
+            "value": "да"
+          },
+          {
+            "category": "M.2",
+            "name": "M.2 интерфейс PIC-E",
+            "value": "1"
+          },
+          {
+            "category": "M.2",
+            "name": "M.2 интерфейс SATA",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "id": 209,
+        "name": "X11SPi-TF",
+        "category": "Материнская плата",
+        "attributes": [
+          {
+            "category": "Кол-во отсеков под слоты расширения",
+            "name": "LowProfile слоты корпуса",
+            "value": "7"
+          },
+          {
+            "category": "Hot-swap",
+            "name": "3,5\"",
+            "value": "8"
+          },
+          {
+            "category": "Физические параметры корпуса",
+            "name": "Форм-фактор шасси",
+            "value": "Rack 2U"
+          },
+          {
+            "category": "Основное корпус",
+            "name": "Материнская плата",
+            "value": "X11SPi-TF"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Кол-во БП",
+            "value": "2"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Модель БП",
+            "value": "740W 1U Redundant Power Supply 80 Plus Platinum"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Функция горячей замены БП",
+            "value": "Да"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Тип памяти SDRAM",
+            "value": "DDR4"
+          },
+          {
+            "category": "M.2",
+            "name": "Кол-во M.2",
+            "value": "1"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 22110",
+            "value": "да"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 2280",
+            "value": "да"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "Тип сокета",
+            "value": "LGA 3647"
+          },
+          {
+            "category": "Задняя панель",
+            "name": "2,0",
+            "value": "2"
+          },
+          {
+            "category": "Слоты расширения",
+            "name": "PCI-E x 8",
+            "value": "3"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "max TDP",
+            "value": "205 W"
+          },
+          {
+            "category": "Слоты расширения",
+            "name": "PCI-E x 16",
+            "value": "2"
+          },
+          {
+            "category": "Задняя панель",
+            "name": "3,0",
+            "value": "2"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Кол-во слотов DIMM",
+            "value": "8"
+          },
+          {
+            "category": "Встроенный сетевой интерфейс RJ45",
+            "name": "Кол-во портов RJ45 10Gbs",
+            "value": "2"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Максимальная частота",
+            "value": "2666"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Максимальный объем памяти",
+            "value": "1024"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "LRDIMM",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "ECC",
+            "value": "да"
+          },
+          {
+            "category": "Дисковый контроллер",
+            "name": "SuperDOM",
+            "value": "2"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "Кол-во процессоров",
+            "value": "1"
+          },
+          {
+            "category": "Дисковый контроллер",
+            "name": "SATA",
+            "value": "10"
+          },
+          {
+            "category": "Основное мат. плата",
+            "name": "Chipset",
+            "value": "Intel® C622 chipset"
+          },
+          {
+            "category": "Форм-фактор",
+            "name": "StandardP DIMM",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 0",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 1",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 10",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 5",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "3DS",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "RDIMM",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "UDIMM",
+            "value": "да"
+          },
+          {
+            "category": "M.2",
+            "name": "M.2 интерфейс PIC-E",
+            "value": "1"
+          },
+          {
+            "category": "M.2",
+            "name": "M.2 интерфейс SATA",
+            "value": "1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "TA1204",
+    "components": [
+      {
+        "id": 321,
+        "name": "825TQC-R740LPB",
+        "category": "Корпус",
+        "attributes": [
+          {
+            "category": "Кол-во отсеков под слоты расширения",
+            "name": "LowProfile слоты корпуса",
+            "value": "7"
+          },
+          {
+            "category": "Hot-swap",
+            "name": "3,5\"",
+            "value": "8"
+          },
+          {
+            "category": "Физические параметры корпуса",
+            "name": "Форм-фактор шасси",
+            "value": "Rack 2U"
+          },
+          {
+            "category": "Основное корпус",
+            "name": "Материнская плата",
+            "value": "X11DPi-N"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Кол-во БП",
+            "value": "2"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Модель БП",
+            "value": "740W 1U Redundant Power Supply 80 Plus Platinum"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Функция горячей замены БП",
+            "value": "Да"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Тип памяти SDRAM",
+            "value": "DDR4"
+          },
+          {
+            "category": "M.2",
+            "name": "Кол-во M.2",
+            "value": "1"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 22110",
+            "value": "да"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 2280",
+            "value": "да"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 2260",
+            "value": "да"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "Тип сокета",
+            "value": "LGA 3647"
+          },
+          {
+            "category": "Задняя панель",
+            "name": "2,0",
+            "value": "2"
+          },
+          {
+            "category": "Слоты расширения",
+            "name": "PCI-E x 8",
+            "value": "2"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "max TDP",
+            "value": "205 W"
+          },
+          {
+            "category": "Слоты расширения",
+            "name": "PCI-E x 16",
+            "value": "4"
+          },
+          {
+            "category": "Задняя панель",
+            "name": "3,0",
+            "value": "2"
+          },
+          {
+            "category": "Дисковый контроллер",
+            "name": "U.2 NVMe",
+            "value": "2"
+          },
+          {
+            "category": "Графика",
+            "name": "Интегрированный IPMI",
+            "value": "Да"
+          },
+          {
+            "category": "Встроенный сетевой интерфейс RJ45",
+            "name": "Кол-во портов RJ45 1Gbs",
+            "value": "2"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Кол-во слотов DIMM",
+            "value": "16"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Максимальная частота",
+            "value": "2666"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Максимальный объем памяти",
+            "value": "2048"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "LRDIMM",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "ECC",
+            "value": "да"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "Кол-во процессоров",
+            "value": "2"
+          },
+          {
+            "category": "Дисковый контроллер",
+            "name": "SATA",
+            "value": "14"
+          },
+          {
+            "category": "Основное мат. плата",
+            "name": "Chipset",
+            "value": "Intel® C621 chipset"
+          },
+          {
+            "category": "Форм-фактор",
+            "name": "StandardP DIMM",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 0",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 1",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 10",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 5",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "3DS",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "RDIMM",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "UDIMM",
+            "value": "да"
+          },
+          {
+            "category": "M.2",
+            "name": "M.2 интерфейс PIC-E",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "id": 198,
+        "name": "X11DPi-N",
+        "category": "Материнская плата",
+        "attributes": [
+          {
+            "category": "Кол-во отсеков под слоты расширения",
+            "name": "LowProfile слоты корпуса",
+            "value": "7"
+          },
+          {
+            "category": "Hot-swap",
+            "name": "3,5\"",
+            "value": "8"
+          },
+          {
+            "category": "Физические параметры корпуса",
+            "name": "Форм-фактор шасси",
+            "value": "Rack 2U"
+          },
+          {
+            "category": "Основное корпус",
+            "name": "Материнская плата",
+            "value": "X11DPi-N"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Кол-во БП",
+            "value": "2"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Модель БП",
+            "value": "740W 1U Redundant Power Supply 80 Plus Platinum"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Функция горячей замены БП",
+            "value": "Да"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Тип памяти SDRAM",
+            "value": "DDR4"
+          },
+          {
+            "category": "M.2",
+            "name": "Кол-во M.2",
+            "value": "1"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 22110",
+            "value": "да"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 2280",
+            "value": "да"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 2260",
+            "value": "да"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "Тип сокета",
+            "value": "LGA 3647"
+          },
+          {
+            "category": "Задняя панель",
+            "name": "2,0",
+            "value": "2"
+          },
+          {
+            "category": "Слоты расширения",
+            "name": "PCI-E x 8",
+            "value": "2"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "max TDP",
+            "value": "205 W"
+          },
+          {
+            "category": "Слоты расширения",
+            "name": "PCI-E x 16",
+            "value": "4"
+          },
+          {
+            "category": "Задняя панель",
+            "name": "3,0",
+            "value": "2"
+          },
+          {
+            "category": "Дисковый контроллер",
+            "name": "U.2 NVMe",
+            "value": "2"
+          },
+          {
+            "category": "Графика",
+            "name": "Интегрированный IPMI",
+            "value": "Да"
+          },
+          {
+            "category": "Встроенный сетевой интерфейс RJ45",
+            "name": "Кол-во портов RJ45 1Gbs",
+            "value": "2"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Кол-во слотов DIMM",
+            "value": "16"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Максимальная частота",
+            "value": "2666"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Максимальный объем памяти",
+            "value": "2048"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "LRDIMM",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "ECC",
+            "value": "да"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "Кол-во процессоров",
+            "value": "2"
+          },
+          {
+            "category": "Дисковый контроллер",
+            "name": "SATA",
+            "value": "14"
+          },
+          {
+            "category": "Основное мат. плата",
+            "name": "Chipset",
+            "value": "Intel® C621 chipset"
+          },
+          {
+            "category": "Форм-фактор",
+            "name": "StandardP DIMM",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 0",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 1",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 10",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 5",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "3DS",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "RDIMM",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "UDIMM",
+            "value": "да"
+          },
+          {
+            "category": "M.2",
+            "name": "M.2 интерфейс PIC-E",
+            "value": "1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "TA1205",
+    "components": [
+      {
+        "id": 320,
+        "name": "825TQC-R740LPB",
+        "category": "Корпус",
+        "attributes": [
+          {
+            "category": "Кол-во отсеков под слоты расширения",
+            "name": "LowProfile слоты корпуса",
+            "value": "7"
+          },
+          {
+            "category": "Hot-swap",
+            "name": "3,5\"",
+            "value": "8"
+          },
+          {
+            "category": "Физические параметры корпуса",
+            "name": "Форм-фактор шасси",
+            "value": "Rack 2U"
+          },
+          {
+            "category": "Основное корпус",
+            "name": "Материнская плата",
+            "value": "X11DPi-NT"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Кол-во БП",
+            "value": "2"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Модель БП",
+            "value": "740W 1U Redundant Power Supply 80 Plus Platinum"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Функция горячей замены БП",
+            "value": "Да"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Тип памяти SDRAM",
+            "value": "DDR4"
+          },
+          {
+            "category": "M.2",
+            "name": "Кол-во M.2",
+            "value": "1"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 22110",
+            "value": "да"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 2280",
+            "value": "да"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 2260",
+            "value": "да"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "Тип сокета",
+            "value": "LGA 3647"
+          },
+          {
+            "category": "Задняя панель",
+            "name": "2,0",
+            "value": "2"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "max TDP",
+            "value": "205 W"
+          },
+          {
+            "category": "Задняя панель",
+            "name": "3,0",
+            "value": "2"
+          },
+          {
+            "category": "Дисковый контроллер",
+            "name": "U.2 NVMe",
+            "value": "2"
+          },
+          {
+            "category": "Графика",
+            "name": "Интегрированный IPMI",
+            "value": "Да"
+          },
+          {
+            "category": "Встроенный сетевой интерфейс RJ45",
+            "name": "Кол-во портов RJ45 10Gbs",
+            "value": "2"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Кол-во слотов DIMM",
+            "value": "16"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Максимальная частота",
+            "value": "2666"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Максимальный объем памяти",
+            "value": "2048"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "LRDIMM",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "ECC",
+            "value": "да"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "Кол-во процессоров",
+            "value": "2"
+          },
+          {
+            "category": "Дисковый контроллер",
+            "name": "SATA",
+            "value": "14"
+          },
+          {
+            "category": "Основное мат. плата",
+            "name": "Chipset",
+            "value": "Intel® C622 chipset"
+          },
+          {
+            "category": "Форм-фактор",
+            "name": "StandardP DIMM",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 0",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 1",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 10",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 5",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "3DS",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "RDIMM",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "UDIMM",
+            "value": "да"
+          },
+          {
+            "category": "M.2",
+            "name": "M.2 интерфейс PIC-E",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "id": 210,
+        "name": "X11DPi-NT",
+        "category": "Материнская плата",
+        "attributes": [
+          {
+            "category": "Кол-во отсеков под слоты расширения",
+            "name": "LowProfile слоты корпуса",
+            "value": "7"
+          },
+          {
+            "category": "Hot-swap",
+            "name": "3,5\"",
+            "value": "8"
+          },
+          {
+            "category": "Физические параметры корпуса",
+            "name": "Форм-фактор шасси",
+            "value": "Rack 2U"
+          },
+          {
+            "category": "Основное корпус",
+            "name": "Материнская плата",
+            "value": "X11DPi-NT"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Кол-во БП",
+            "value": "2"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Модель БП",
+            "value": "740W 1U Redundant Power Supply 80 Plus Platinum"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Функция горячей замены БП",
+            "value": "Да"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Тип памяти SDRAM",
+            "value": "DDR4"
+          },
+          {
+            "category": "M.2",
+            "name": "Кол-во M.2",
+            "value": "1"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 22110",
+            "value": "да"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 2280",
+            "value": "да"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 2260",
+            "value": "да"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "Тип сокета",
+            "value": "LGA 3647"
+          },
+          {
+            "category": "Задняя панель",
+            "name": "2,0",
+            "value": "2"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "max TDP",
+            "value": "205 W"
+          },
+          {
+            "category": "Задняя панель",
+            "name": "3,0",
+            "value": "2"
+          },
+          {
+            "category": "Дисковый контроллер",
+            "name": "U.2 NVMe",
+            "value": "2"
+          },
+          {
+            "category": "Графика",
+            "name": "Интегрированный IPMI",
+            "value": "Да"
+          },
+          {
+            "category": "Встроенный сетевой интерфейс RJ45",
+            "name": "Кол-во портов RJ45 10Gbs",
+            "value": "2"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Кол-во слотов DIMM",
+            "value": "16"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Максимальная частота",
+            "value": "2666"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Максимальный объем памяти",
+            "value": "2048"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "LRDIMM",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "ECC",
+            "value": "да"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "Кол-во процессоров",
+            "value": "2"
+          },
+          {
+            "category": "Дисковый контроллер",
+            "name": "SATA",
+            "value": "14"
+          },
+          {
+            "category": "Основное мат. плата",
+            "name": "Chipset",
+            "value": "Intel® C622 chipset"
+          },
+          {
+            "category": "Форм-фактор",
+            "name": "StandardP DIMM",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 0",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 1",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 10",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 5",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "3DS",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "RDIMM",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "UDIMM",
+            "value": "да"
+          },
+          {
+            "category": "M.2",
+            "name": "M.2 интерфейс PIC-E",
+            "value": "1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "TA1206",
+    "components": [
+      {
+        "id": 180,
+        "name": "826BE1C-R920LPB",
+        "category": "Корпус",
+        "attributes": [
+          {
+            "category": "Кол-во отсеков под слоты расширения",
+            "name": "LowProfile слоты корпуса",
+            "value": "7"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Модель БП",
+            "value": "920W 1U Redundant Power Supply 80 Plus Platinum"
+          },
+          {
+            "category": "Физические параметры корпуса",
+            "name": "Форм-фактор шасси",
+            "value": "Rack 2U"
+          },
+          {
+            "category": "Hot-swap",
+            "name": "3,5\"",
+            "value": "12"
+          },
+          {
+            "category": "Основное корпус",
+            "name": "Материнская плата",
+            "value": "X11SPi-TF"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Кол-во БП",
+            "value": "2"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Функция горячей замены БП",
+            "value": "Да"
+          },
+          {
+            "category": "Опции",
+            "name": "Опция - 2 HDD x 2.5\" Hot-Swarp",
+            "value": "да"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Тип памяти SDRAM",
+            "value": "DDR4"
+          },
+          {
+            "category": "M.2",
+            "name": "Кол-во M.2",
+            "value": "1"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 22110",
+            "value": "да"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 2280",
+            "value": "да"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "Тип сокета",
+            "value": "LGA 3647"
+          },
+          {
+            "category": "Задняя панель",
+            "name": "2,0",
+            "value": "2"
+          },
+          {
+            "category": "Слоты расширения",
+            "name": "PCI-E x 8",
+            "value": "3"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "max TDP",
+            "value": "205 W"
+          },
+          {
+            "category": "Слоты расширения",
+            "name": "PCI-E x 16",
+            "value": "2"
+          },
+          {
+            "category": "Задняя панель",
+            "name": "3,0",
+            "value": "2"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Кол-во слотов DIMM",
+            "value": "8"
+          },
+          {
+            "category": "Встроенный сетевой интерфейс RJ45",
+            "name": "Кол-во портов RJ45 10Gbs",
+            "value": "2"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Максимальная частота",
+            "value": "2666"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Максимальный объем памяти",
+            "value": "1024"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "LRDIMM",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "ECC",
+            "value": "да"
+          },
+          {
+            "category": "Дисковый контроллер",
+            "name": "SuperDOM",
+            "value": "2"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "Кол-во процессоров",
+            "value": "1"
+          },
+          {
+            "category": "Дисковый контроллер",
+            "name": "SATA",
+            "value": "10"
+          },
+          {
+            "category": "Основное мат. плата",
+            "name": "Chipset",
+            "value": "Intel® C622 chipset"
+          },
+          {
+            "category": "Форм-фактор",
+            "name": "StandardP DIMM",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 0",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 1",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 10",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 5",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "3DS",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "RDIMM",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "UDIMM",
+            "value": "да"
+          },
+          {
+            "category": "M.2",
+            "name": "M.2 интерфейс PIC-E",
+            "value": "1"
+          },
+          {
+            "category": "M.2",
+            "name": "M.2 интерфейс SATA",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "id": 209,
+        "name": "X11SPi-TF",
+        "category": "Материнская плата",
+        "attributes": [
+          {
+            "category": "Кол-во отсеков под слоты расширения",
+            "name": "LowProfile слоты корпуса",
+            "value": "7"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Модель БП",
+            "value": "920W 1U Redundant Power Supply 80 Plus Platinum"
+          },
+          {
+            "category": "Физические параметры корпуса",
+            "name": "Форм-фактор шасси",
+            "value": "Rack 2U"
+          },
+          {
+            "category": "Hot-swap",
+            "name": "3,5\"",
+            "value": "12"
+          },
+          {
+            "category": "Основное корпус",
+            "name": "Материнская плата",
+            "value": "X11SPi-TF"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Кол-во БП",
+            "value": "2"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Функция горячей замены БП",
+            "value": "Да"
+          },
+          {
+            "category": "Опции",
+            "name": "Опция - 2 HDD x 2.5\" Hot-Swarp",
+            "value": "да"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Тип памяти SDRAM",
+            "value": "DDR4"
+          },
+          {
+            "category": "M.2",
+            "name": "Кол-во M.2",
+            "value": "1"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 22110",
+            "value": "да"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 2280",
+            "value": "да"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "Тип сокета",
+            "value": "LGA 3647"
+          },
+          {
+            "category": "Задняя панель",
+            "name": "2,0",
+            "value": "2"
+          },
+          {
+            "category": "Слоты расширения",
+            "name": "PCI-E x 8",
+            "value": "3"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "max TDP",
+            "value": "205 W"
+          },
+          {
+            "category": "Слоты расширения",
+            "name": "PCI-E x 16",
+            "value": "2"
+          },
+          {
+            "category": "Задняя панель",
+            "name": "3,0",
+            "value": "2"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Кол-во слотов DIMM",
+            "value": "8"
+          },
+          {
+            "category": "Встроенный сетевой интерфейс RJ45",
+            "name": "Кол-во портов RJ45 10Gbs",
+            "value": "2"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Максимальная частота",
+            "value": "2666"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Максимальный объем памяти",
+            "value": "1024"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "LRDIMM",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "ECC",
+            "value": "да"
+          },
+          {
+            "category": "Дисковый контроллер",
+            "name": "SuperDOM",
+            "value": "2"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "Кол-во процессоров",
+            "value": "1"
+          },
+          {
+            "category": "Дисковый контроллер",
+            "name": "SATA",
+            "value": "10"
+          },
+          {
+            "category": "Основное мат. плата",
+            "name": "Chipset",
+            "value": "Intel® C622 chipset"
+          },
+          {
+            "category": "Форм-фактор",
+            "name": "StandardP DIMM",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 0",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 1",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 10",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 5",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "3DS",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "RDIMM",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "UDIMM",
+            "value": "да"
+          },
+          {
+            "category": "M.2",
+            "name": "M.2 интерфейс PIC-E",
+            "value": "1"
+          },
+          {
+            "category": "M.2",
+            "name": "M.2 интерфейс SATA",
+            "value": "1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "TA1207",
+    "components": [
+      {
+        "id": 181,
+        "name": "826BE1C-R920LPB",
+        "category": "Корпус",
+        "attributes": [
+          {
+            "category": "Кол-во отсеков под слоты расширения",
+            "name": "LowProfile слоты корпуса",
+            "value": "7"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Модель БП",
+            "value": "920W 1U Redundant Power Supply 80 Plus Platinum"
+          },
+          {
+            "category": "Физические параметры корпуса",
+            "name": "Форм-фактор шасси",
+            "value": "Rack 2U"
+          },
+          {
+            "category": "Hot-swap",
+            "name": "3,5\"",
+            "value": "12"
+          },
+          {
+            "category": "Основное корпус",
+            "name": "Материнская плата",
+            "value": "X11SPH-nCTPF"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Кол-во БП",
+            "value": "2"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Функция горячей замены БП",
+            "value": "Да"
+          },
+          {
+            "category": "Опции",
+            "name": "Опция - 2 HDD x 2.5\" Hot-Swarp",
+            "value": "да"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Тип памяти SDRAM",
+            "value": "DDR4"
+          },
+          {
+            "category": "M.2",
+            "name": "Кол-во M.2",
+            "value": "1"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 2280",
+            "value": "да"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "Тип сокета",
+            "value": "LGA 3647"
+          },
+          {
+            "category": "Задняя панель",
+            "name": "2,0",
+            "value": "2"
+          },
+          {
+            "category": "Слоты расширения",
+            "name": "PCI-E x 8",
+            "value": "3"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "max TDP",
+            "value": "205 W"
+          },
+          {
+            "category": "Дисковый контроллер",
+            "name": "SAS",
+            "value": "8"
+          },
+          {
+            "category": "Слоты расширения",
+            "name": "PCI-E x 16",
+            "value": "1"
+          },
+          {
+            "category": "Задняя панель",
+            "name": "3,0",
+            "value": "2"
+          },
+          {
+            "category": "Дисковый контроллер",
+            "name": "U.2 NVMe",
+            "value": "2"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Кол-во слотов DIMM",
+            "value": "8"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Максимальная частота",
+            "value": "2666"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Максимальный объем памяти",
+            "value": "1024"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "LRDIMM",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "ECC",
+            "value": "да"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "Кол-во процессоров",
+            "value": "1"
+          },
+          {
+            "category": "Дисковый контроллер",
+            "name": "SATA",
+            "value": "10"
+          },
+          {
+            "category": "Основное мат. плата",
+            "name": "Chipset",
+            "value": "Intel® C622 chipset"
+          },
+          {
+            "category": "Форм-фактор",
+            "name": "StandardP DIMM",
+            "value": "да"
+          },
+          {
+            "category": "Встроенный сетевой интерфейс SFP+",
+            "name": "Кол-во портов SFP+ 10Gbs",
+            "value": "2"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 0",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 1",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 10",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "3DS",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "RDIMM",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "UDIMM",
+            "value": "да"
+          },
+          {
+            "category": "M.2",
+            "name": "M.2 интерфейс PIC-E",
+            "value": "1"
+          },
+          {
+            "category": "M.2",
+            "name": "M.2 интерфейс SATA",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "id": 359,
+        "name": "X11SPH-nCTPF",
+        "category": "Материнская плата",
+        "attributes": [
+          {
+            "category": "Кол-во отсеков под слоты расширения",
+            "name": "LowProfile слоты корпуса",
+            "value": "7"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Модель БП",
+            "value": "920W 1U Redundant Power Supply 80 Plus Platinum"
+          },
+          {
+            "category": "Физические параметры корпуса",
+            "name": "Форм-фактор шасси",
+            "value": "Rack 2U"
+          },
+          {
+            "category": "Hot-swap",
+            "name": "3,5\"",
+            "value": "12"
+          },
+          {
+            "category": "Основное корпус",
+            "name": "Материнская плата",
+            "value": "X11SPH-nCTPF"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Кол-во БП",
+            "value": "2"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Функция горячей замены БП",
+            "value": "Да"
+          },
+          {
+            "category": "Опции",
+            "name": "Опция - 2 HDD x 2.5\" Hot-Swarp",
+            "value": "да"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Тип памяти SDRAM",
+            "value": "DDR4"
+          },
+          {
+            "category": "M.2",
+            "name": "Кол-во M.2",
+            "value": "1"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 2280",
+            "value": "да"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "Тип сокета",
+            "value": "LGA 3647"
+          },
+          {
+            "category": "Задняя панель",
+            "name": "2,0",
+            "value": "2"
+          },
+          {
+            "category": "Слоты расширения",
+            "name": "PCI-E x 8",
+            "value": "3"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "max TDP",
+            "value": "205 W"
+          },
+          {
+            "category": "Дисковый контроллер",
+            "name": "SAS",
+            "value": "8"
+          },
+          {
+            "category": "Слоты расширения",
+            "name": "PCI-E x 16",
+            "value": "1"
+          },
+          {
+            "category": "Задняя панель",
+            "name": "3,0",
+            "value": "2"
+          },
+          {
+            "category": "Дисковый контроллер",
+            "name": "U.2 NVMe",
+            "value": "2"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Кол-во слотов DIMM",
+            "value": "8"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Максимальная частота",
+            "value": "2666"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Максимальный объем памяти",
+            "value": "1024"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "LRDIMM",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "ECC",
+            "value": "да"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "Кол-во процессоров",
+            "value": "1"
+          },
+          {
+            "category": "Дисковый контроллер",
+            "name": "SATA",
+            "value": "10"
+          },
+          {
+            "category": "Основное мат. плата",
+            "name": "Chipset",
+            "value": "Intel® C622 chipset"
+          },
+          {
+            "category": "Форм-фактор",
+            "name": "StandardP DIMM",
+            "value": "да"
+          },
+          {
+            "category": "Встроенный сетевой интерфейс SFP+",
+            "name": "Кол-во портов SFP+ 10Gbs",
+            "value": "2"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 0",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 1",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 10",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "3DS",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "RDIMM",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "UDIMM",
+            "value": "да"
+          },
+          {
+            "category": "M.2",
+            "name": "M.2 интерфейс PIC-E",
+            "value": "1"
+          },
+          {
+            "category": "M.2",
+            "name": "M.2 интерфейс SATA",
+            "value": "1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "TA1109",
+    "components": [
+      {
+        "id": 169,
+        "name": "116TQ-R706WB",
+        "category": "Корпус",
+        "attributes": [
+          {
+            "category": "Кол-во отсеков под слоты расширения",
+            "name": "LowProfile слоты корпуса",
+            "value": "1"
+          },
+          {
+            "category": "Физические параметры корпуса",
+            "name": "Форм-фактор шасси",
+            "value": "Rack 1U"
+          },
+          {
+            "category": "Hot-swap",
+            "name": "2,5\"",
+            "value": "10"
+          },
+          {
+            "category": "Rizer с макс. кол-вом подключаемых устройств",
+            "name": "Кол-во устр. для подкл. через rizer",
+            "value": "3"
+          },
+          {
+            "category": "Физические параметры корпуса",
+            "name": "Корпус категории WIO",
+            "value": "да"
+          },
+          {
+            "category": "Основное корпус",
+            "name": "Материнская плата",
+            "value": "X11SPW-TF"
+          },
+          {
+            "category": "Кол-во отсеков под слоты расширения",
+            "name": "FullHeight&Full-Length  слоты корпуса",
+            "value": "2"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Кол-во БП",
+            "value": "2"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Модель БП",
+            "value": "750W 1U Redundant Power Supply 80 Plus Platinum"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Функция горячей замены БП",
+            "value": "Да"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Тип памяти SDRAM",
+            "value": "DDR4"
+          },
+          {
+            "category": "M.2",
+            "name": "Кол-во M.2",
+            "value": "1"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 22110",
+            "value": "да"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 2280",
+            "value": "да"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "Тип сокета",
+            "value": "LGA 3647"
+          },
+          {
+            "category": "Задняя панель",
+            "name": "2,0",
+            "value": "2"
+          },
+          {
+            "category": "Задняя панель",
+            "name": "3,0",
+            "value": "2"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "max TDP",
+            "value": "165 W"
+          },
+          {
+            "category": "Графика",
+            "name": "Интегрированный IPMI",
+            "value": "Да"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Кол-во слотов DIMM",
+            "value": "6"
+          },
+          {
+            "category": "Встроенный сетевой интерфейс RJ45",
+            "name": "Кол-во портов RJ45 10Gbs",
+            "value": "2"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Максимальная частота",
+            "value": "2666"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Максимальный объем памяти",
+            "value": "768"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "LRDIMM",
+            "value": "да"
+          },
+          {
+            "category": "Физические параметры мат. платы",
+            "name": "Мат. плата категории WIO",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "ECC",
+            "value": "да"
+          },
+          {
+            "category": "Дисковый контроллер",
+            "name": "SuperDOM",
+            "value": "2"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "Кол-во процессоров",
+            "value": "1"
+          },
+          {
+            "category": "Дисковый контроллер",
+            "name": "SATA",
+            "value": "10"
+          },
+          {
+            "category": "Основное мат. плата",
+            "name": "Chipset",
+            "value": "Intel® C622 chipset"
+          },
+          {
+            "category": "PCI-E 3.0 WIO slot",
+            "name": "PCI-E 3.0 x32 WIO left slot",
+            "value": "да"
+          },
+          {
+            "category": "Форм-фактор",
+            "name": "StandardP DIMM",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 0",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 1",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 10",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 5",
+            "value": "да"
+          },
+          {
+            "category": "PCI-E 3.0 WIO slot",
+            "name": "PCI-E 3.0 x8 WIO right slot",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "3DS",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "RDIMM",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "UDIMM",
+            "value": "да"
+          },
+          {
+            "category": "M.2",
+            "name": "M.2 интерфейс PIC-E",
+            "value": "1"
+          },
+          {
+            "category": "M.2",
+            "name": "M.2 интерфейс SATA",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "id": 206,
+        "name": "X11SPW-TF",
+        "category": "Материнская плата",
+        "attributes": [
+          {
+            "category": "Кол-во отсеков под слоты расширения",
+            "name": "LowProfile слоты корпуса",
+            "value": "1"
+          },
+          {
+            "category": "Физические параметры корпуса",
+            "name": "Форм-фактор шасси",
+            "value": "Rack 1U"
+          },
+          {
+            "category": "Hot-swap",
+            "name": "2,5\"",
+            "value": "10"
+          },
+          {
+            "category": "Rizer с макс. кол-вом подключаемых устройств",
+            "name": "Кол-во устр. для подкл. через rizer",
+            "value": "3"
+          },
+          {
+            "category": "Физические параметры корпуса",
+            "name": "Корпус категории WIO",
+            "value": "да"
+          },
+          {
+            "category": "Основное корпус",
+            "name": "Материнская плата",
+            "value": "X11SPW-TF"
+          },
+          {
+            "category": "Кол-во отсеков под слоты расширения",
+            "name": "FullHeight&Full-Length  слоты корпуса",
+            "value": "2"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Кол-во БП",
+            "value": "2"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Модель БП",
+            "value": "750W 1U Redundant Power Supply 80 Plus Platinum"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Функция горячей замены БП",
+            "value": "Да"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Тип памяти SDRAM",
+            "value": "DDR4"
+          },
+          {
+            "category": "M.2",
+            "name": "Кол-во M.2",
+            "value": "1"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 22110",
+            "value": "да"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 2280",
+            "value": "да"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "Тип сокета",
+            "value": "LGA 3647"
+          },
+          {
+            "category": "Задняя панель",
+            "name": "2,0",
+            "value": "2"
+          },
+          {
+            "category": "Задняя панель",
+            "name": "3,0",
+            "value": "2"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "max TDP",
+            "value": "165 W"
+          },
+          {
+            "category": "Графика",
+            "name": "Интегрированный IPMI",
+            "value": "Да"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Кол-во слотов DIMM",
+            "value": "6"
+          },
+          {
+            "category": "Встроенный сетевой интерфейс RJ45",
+            "name": "Кол-во портов RJ45 10Gbs",
+            "value": "2"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Максимальная частота",
+            "value": "2666"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Максимальный объем памяти",
+            "value": "768"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "LRDIMM",
+            "value": "да"
+          },
+          {
+            "category": "Физические параметры мат. платы",
+            "name": "Мат. плата категории WIO",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "ECC",
+            "value": "да"
+          },
+          {
+            "category": "Дисковый контроллер",
+            "name": "SuperDOM",
+            "value": "2"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "Кол-во процессоров",
+            "value": "1"
+          },
+          {
+            "category": "Дисковый контроллер",
+            "name": "SATA",
+            "value": "10"
+          },
+          {
+            "category": "Основное мат. плата",
+            "name": "Chipset",
+            "value": "Intel® C622 chipset"
+          },
+          {
+            "category": "PCI-E 3.0 WIO slot",
+            "name": "PCI-E 3.0 x32 WIO left slot",
+            "value": "да"
+          },
+          {
+            "category": "Форм-фактор",
+            "name": "StandardP DIMM",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 0",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 1",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 10",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 5",
+            "value": "да"
+          },
+          {
+            "category": "PCI-E 3.0 WIO slot",
+            "name": "PCI-E 3.0 x8 WIO right slot",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "3DS",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "RDIMM",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "UDIMM",
+            "value": "да"
+          },
+          {
+            "category": "M.2",
+            "name": "M.2 интерфейс PIC-E",
+            "value": "1"
+          },
+          {
+            "category": "M.2",
+            "name": "M.2 интерфейс SATA",
+            "value": "1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "TA1110",
+    "components": [
+      {
+        "id": 170,
+        "name": "116TQ-R706WB",
+        "category": "Корпус",
+        "attributes": [
+          {
+            "category": "Кол-во отсеков под слоты расширения",
+            "name": "LowProfile слоты корпуса",
+            "value": "1"
+          },
+          {
+            "category": "Физические параметры корпуса",
+            "name": "Форм-фактор шасси",
+            "value": "Rack 1U"
+          },
+          {
+            "category": "Hot-swap",
+            "name": "2,5\"",
+            "value": "10"
+          },
+          {
+            "category": "Rizer с макс. кол-вом подключаемых устройств",
+            "name": "Кол-во устр. для подкл. через rizer",
+            "value": "3"
+          },
+          {
+            "category": "Физические параметры корпуса",
+            "name": "Корпус категории WIO",
+            "value": "да"
+          },
+          {
+            "category": "Основное корпус",
+            "name": "Материнская плата",
+            "value": "X11SPW-CTF"
+          },
+          {
+            "category": "Кол-во отсеков под слоты расширения",
+            "name": "FullHeight&Full-Length  слоты корпуса",
+            "value": "2"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Кол-во БП",
+            "value": "2"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Модель БП",
+            "value": "750W 1U Redundant Power Supply 80 Plus Platinum"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Функция горячей замены БП",
+            "value": "Да"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Тип памяти SDRAM",
+            "value": "DDR4"
+          },
+          {
+            "category": "M.2",
+            "name": "Кол-во M.2",
+            "value": "1"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 22110",
+            "value": "да"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 2280",
+            "value": "да"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "Тип сокета",
+            "value": "LGA 3647"
+          },
+          {
+            "category": "Задняя панель",
+            "name": "2,0",
+            "value": "2"
+          },
+          {
+            "category": "Дисковый контроллер",
+            "name": "SAS",
+            "value": "4"
+          },
+          {
+            "category": "Задняя панель",
+            "name": "3,0",
+            "value": "2"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "max TDP",
+            "value": "165 W"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Кол-во слотов DIMM",
+            "value": "6"
+          },
+          {
+            "category": "Встроенный сетевой интерфейс RJ45",
+            "name": "Кол-во портов RJ45 10Gbs",
+            "value": "2"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Максимальная частота",
+            "value": "2666"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Максимальный объем памяти",
+            "value": "768"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "LRDIMM",
+            "value": "да"
+          },
+          {
+            "category": "Физические параметры мат. платы",
+            "name": "Мат. плата категории WIO",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "ECC",
+            "value": "да"
+          },
+          {
+            "category": "Дисковый контроллер",
+            "name": "SuperDOM",
+            "value": "2"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "Кол-во процессоров",
+            "value": "1"
+          },
+          {
+            "category": "Дисковый контроллер",
+            "name": "SATA",
+            "value": "10"
+          },
+          {
+            "category": "Основное мат. плата",
+            "name": "Chipset",
+            "value": "Intel® C622 chipset"
+          },
+          {
+            "category": "PCI-E 3.0 WIO slot",
+            "name": "PCI-E 3.0 x32 WIO left slot",
+            "value": "да"
+          },
+          {
+            "category": "Форм-фактор",
+            "name": "StandardP DIMM",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 0",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 1",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 10",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 5",
+            "value": "да"
+          },
+          {
+            "category": "PCI-E 3.0 WIO slot",
+            "name": "PCI-E 3.0 x8 WIO right slot",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "3DS",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "RDIMM",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "UDIMM",
+            "value": "да"
+          },
+          {
+            "category": "M.2",
+            "name": "M.2 интерфейс PIC-E",
+            "value": "1"
+          },
+          {
+            "category": "M.2",
+            "name": "M.2 интерфейс SATA",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "id": 207,
+        "name": "X11SPW-CTF",
+        "category": "Материнская плата",
+        "attributes": [
+          {
+            "category": "Кол-во отсеков под слоты расширения",
+            "name": "LowProfile слоты корпуса",
+            "value": "1"
+          },
+          {
+            "category": "Физические параметры корпуса",
+            "name": "Форм-фактор шасси",
+            "value": "Rack 1U"
+          },
+          {
+            "category": "Hot-swap",
+            "name": "2,5\"",
+            "value": "10"
+          },
+          {
+            "category": "Rizer с макс. кол-вом подключаемых устройств",
+            "name": "Кол-во устр. для подкл. через rizer",
+            "value": "3"
+          },
+          {
+            "category": "Физические параметры корпуса",
+            "name": "Корпус категории WIO",
+            "value": "да"
+          },
+          {
+            "category": "Основное корпус",
+            "name": "Материнская плата",
+            "value": "X11SPW-CTF"
+          },
+          {
+            "category": "Кол-во отсеков под слоты расширения",
+            "name": "FullHeight&Full-Length  слоты корпуса",
+            "value": "2"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Кол-во БП",
+            "value": "2"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Модель БП",
+            "value": "750W 1U Redundant Power Supply 80 Plus Platinum"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Функция горячей замены БП",
+            "value": "Да"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Тип памяти SDRAM",
+            "value": "DDR4"
+          },
+          {
+            "category": "M.2",
+            "name": "Кол-во M.2",
+            "value": "1"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 22110",
+            "value": "да"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 2280",
+            "value": "да"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "Тип сокета",
+            "value": "LGA 3647"
+          },
+          {
+            "category": "Задняя панель",
+            "name": "2,0",
+            "value": "2"
+          },
+          {
+            "category": "Дисковый контроллер",
+            "name": "SAS",
+            "value": "4"
+          },
+          {
+            "category": "Задняя панель",
+            "name": "3,0",
+            "value": "2"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "max TDP",
+            "value": "165 W"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Кол-во слотов DIMM",
+            "value": "6"
+          },
+          {
+            "category": "Встроенный сетевой интерфейс RJ45",
+            "name": "Кол-во портов RJ45 10Gbs",
+            "value": "2"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Максимальная частота",
+            "value": "2666"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Максимальный объем памяти",
+            "value": "768"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "LRDIMM",
+            "value": "да"
+          },
+          {
+            "category": "Физические параметры мат. платы",
+            "name": "Мат. плата категории WIO",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "ECC",
+            "value": "да"
+          },
+          {
+            "category": "Дисковый контроллер",
+            "name": "SuperDOM",
+            "value": "2"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "Кол-во процессоров",
+            "value": "1"
+          },
+          {
+            "category": "Дисковый контроллер",
+            "name": "SATA",
+            "value": "10"
+          },
+          {
+            "category": "Основное мат. плата",
+            "name": "Chipset",
+            "value": "Intel® C622 chipset"
+          },
+          {
+            "category": "PCI-E 3.0 WIO slot",
+            "name": "PCI-E 3.0 x32 WIO left slot",
+            "value": "да"
+          },
+          {
+            "category": "Форм-фактор",
+            "name": "StandardP DIMM",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 0",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 1",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 10",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 5",
+            "value": "да"
+          },
+          {
+            "category": "PCI-E 3.0 WIO slot",
+            "name": "PCI-E 3.0 x8 WIO right slot",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "3DS",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "RDIMM",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "UDIMM",
+            "value": "да"
+          },
+          {
+            "category": "M.2",
+            "name": "M.2 интерфейс PIC-E",
+            "value": "1"
+          },
+          {
+            "category": "M.2",
+            "name": "M.2 интерфейс SATA",
+            "value": "1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "TA1111",
+    "components": [
+      {
+        "id": 171,
+        "name": "116TQ-R706WB",
+        "category": "Корпус",
+        "attributes": [
+          {
+            "category": "Кол-во отсеков под слоты расширения",
+            "name": "LowProfile слоты корпуса",
+            "value": "1"
+          },
+          {
+            "category": "Физические параметры корпуса",
+            "name": "Форм-фактор шасси",
+            "value": "Rack 1U"
+          },
+          {
+            "category": "Hot-swap",
+            "name": "2,5\"",
+            "value": "10"
+          },
+          {
+            "category": "Rizer с макс. кол-вом подключаемых устройств",
+            "name": "Кол-во устр. для подкл. через rizer",
+            "value": "3"
+          },
+          {
+            "category": "Физические параметры корпуса",
+            "name": "Корпус категории WIO",
+            "value": "да"
+          },
+          {
+            "category": "Основное корпус",
+            "name": "Материнская плата",
+            "value": "X11DDW-L"
+          },
+          {
+            "category": "Кол-во отсеков под слоты расширения",
+            "name": "FullHeight&Full-Length  слоты корпуса",
+            "value": "2"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Кол-во БП",
+            "value": "2"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Модель БП",
+            "value": "750W 1U Redundant Power Supply 80 Plus Platinum"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Функция горячей замены БП",
+            "value": "Да"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Тип памяти SDRAM",
+            "value": "DDR4"
+          },
+          {
+            "category": "M.2",
+            "name": "Кол-во M.2",
+            "value": "1"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 22110",
+            "value": "да"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 2280",
+            "value": "да"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 2260",
+            "value": "да"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "Тип сокета",
+            "value": "LGA 3647"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 2242",
+            "value": "да"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "max TDP",
+            "value": "165 W"
+          },
+          {
+            "category": "Задняя панель",
+            "name": "3,0",
+            "value": "4"
+          },
+          {
+            "category": "Слоты расширения",
+            "name": "Mezzanine / OCP slot",
+            "value": "1"
+          },
+          {
+            "category": "Графика",
+            "name": "Интегрированный IPMI",
+            "value": "Да"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Кол-во слотов DIMM",
+            "value": "12"
+          },
+          {
+            "category": "Встроенный сетевой интерфейс RJ45",
+            "name": "Кол-во портов RJ45 1Gbs",
+            "value": "2"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Максимальная частота",
+            "value": "2666"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Максимальный объем памяти",
+            "value": "1536"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "LRDIMM",
+            "value": "да"
+          },
+          {
+            "category": "Физические параметры мат. платы",
+            "name": "Мат. плата категории WIO",
+            "value": "да"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "Кол-во процессоров",
+            "value": "2"
+          },
+          {
+            "category": "Дисковый контроллер",
+            "name": "SATA",
+            "value": "14"
+          },
+          {
+            "category": "Основное мат. плата",
+            "name": "Chipset",
+            "value": "Intel® C621 chipset"
+          },
+          {
+            "category": "PCI-E 3.0 WIO slot",
+            "name": "PCI-E 3.0 x32 WIO left slot",
+            "value": "да"
+          },
+          {
+            "category": "Форм-фактор",
+            "name": "StandardP DIMM",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 0",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 1",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 10",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 5",
+            "value": "да"
+          },
+          {
+            "category": "PCI-E 3.0 WIO slot",
+            "name": "PCI-E 3.0 x16 WIO right slot",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "3DS",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "RDIMM",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "UDIMM",
+            "value": "да"
+          },
+          {
+            "category": "M.2",
+            "name": "M.2 интерфейс PIC-E",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "id": 196,
+        "name": "X11DDW-L",
+        "category": "Материнская плата",
+        "attributes": [
+          {
+            "category": "Кол-во отсеков под слоты расширения",
+            "name": "LowProfile слоты корпуса",
+            "value": "1"
+          },
+          {
+            "category": "Физические параметры корпуса",
+            "name": "Форм-фактор шасси",
+            "value": "Rack 1U"
+          },
+          {
+            "category": "Hot-swap",
+            "name": "2,5\"",
+            "value": "10"
+          },
+          {
+            "category": "Rizer с макс. кол-вом подключаемых устройств",
+            "name": "Кол-во устр. для подкл. через rizer",
+            "value": "3"
+          },
+          {
+            "category": "Физические параметры корпуса",
+            "name": "Корпус категории WIO",
+            "value": "да"
+          },
+          {
+            "category": "Основное корпус",
+            "name": "Материнская плата",
+            "value": "X11DDW-L"
+          },
+          {
+            "category": "Кол-во отсеков под слоты расширения",
+            "name": "FullHeight&Full-Length  слоты корпуса",
+            "value": "2"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Кол-во БП",
+            "value": "2"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Модель БП",
+            "value": "750W 1U Redundant Power Supply 80 Plus Platinum"
+          },
+          {
+            "category": "Блок питания",
+            "name": "Функция горячей замены БП",
+            "value": "Да"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Тип памяти SDRAM",
+            "value": "DDR4"
+          },
+          {
+            "category": "M.2",
+            "name": "Кол-во M.2",
+            "value": "1"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 22110",
+            "value": "да"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 2280",
+            "value": "да"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 2260",
+            "value": "да"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "Тип сокета",
+            "value": "LGA 3647"
+          },
+          {
+            "category": "M.2",
+            "name": "Форм-фактор m.2 2242",
+            "value": "да"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "max TDP",
+            "value": "165 W"
+          },
+          {
+            "category": "Задняя панель",
+            "name": "3,0",
+            "value": "4"
+          },
+          {
+            "category": "Слоты расширения",
+            "name": "Mezzanine / OCP slot",
+            "value": "1"
+          },
+          {
+            "category": "Графика",
+            "name": "Интегрированный IPMI",
+            "value": "Да"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Кол-во слотов DIMM",
+            "value": "12"
+          },
+          {
+            "category": "Встроенный сетевой интерфейс RJ45",
+            "name": "Кол-во портов RJ45 1Gbs",
+            "value": "2"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Максимальная частота",
+            "value": "2666"
+          },
+          {
+            "category": "Оперативная память",
+            "name": "Максимальный объем памяти",
+            "value": "1536"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "LRDIMM",
+            "value": "да"
+          },
+          {
+            "category": "Физические параметры мат. платы",
+            "name": "Мат. плата категории WIO",
+            "value": "да"
+          },
+          {
+            "category": "Процессорный сокет",
+            "name": "Кол-во процессоров",
+            "value": "2"
+          },
+          {
+            "category": "Дисковый контроллер",
+            "name": "SATA",
+            "value": "14"
+          },
+          {
+            "category": "Основное мат. плата",
+            "name": "Chipset",
+            "value": "Intel® C621 chipset"
+          },
+          {
+            "category": "PCI-E 3.0 WIO slot",
+            "name": "PCI-E 3.0 x32 WIO left slot",
+            "value": "да"
+          },
+          {
+            "category": "Форм-фактор",
+            "name": "StandardP DIMM",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 0",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 1",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 10",
+            "value": "да"
+          },
+          {
+            "category": "Спецификация RAID",
+            "name": "Спецификация RAID 5",
+            "value": "да"
+          },
+          {
+            "category": "PCI-E 3.0 WIO slot",
+            "name": "PCI-E 3.0 x16 WIO right slot",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "3DS",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "RDIMM",
+            "value": "да"
+          },
+          {
+            "category": "Характеристики RAM",
+            "name": "UDIMM",
+            "value": "да"
+          },
+          {
+            "category": "M.2",
+            "name": "M.2 интерфейс PIC-E",
+            "value": "1"
+          }
+        ]
+      }
+    ]
+  }
+]
