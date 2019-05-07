@@ -1,91 +1,48 @@
 <template>
+  <v-container grid-list-xl text-xs-center>
+    <v-layout>
+      <v-flex xs12>
+        <h1 class="display-1 mb-2">Стоечные серверные системы ТАЛМЕР</h1>
+        <p class="title font-italic">Компактные высокопроизводительные сервера устанавливаемые в Rack стойку</p>
+      </v-flex>
+    </v-layout>
 
-  <div>
-    <v-container grid-list-lg>
-      <v-layout row>
-        <v-flex xs12 sm5 md3 otstup>
-          <details>
-            <summary @click="hotSwaps" >Hot-swap</summary>
-            <v-container fluid >
-              <v-checkbox v-for="group in adsHotSwaps" :label="group" :value='group'
-                          v-model="hotSwap" ></v-checkbox>
-              {{hotSwap}}}
-            </v-container>
-          </details>
 
-        </v-flex>
-        <v-layout row wrap  v-if="adsHotSwaps.length != 0">
 
-          <v-flex
-            v-for="ad of ads"
-            :key="ad.id"
-            xs12
-            sm6
-            md4
-          >
+    <v-layout>
+      <v-flex xs12 class="text-xs-center pt-5" v-if="loading">
+        <v-progress-circular indeterminate :size="100" :width="4" color="purple">
+        </v-progress-circular>
+      </v-flex>
 
-            <v-card>
-              <v-img
-                :src="ad.imageSrc"
-                aspect-ratio="2.75"
-                height="200px"
-              ></v-img>
+      <v-flex v-for="category,i in categoryList" v-else :key="i" xs3 >
+        <router-link :to="'/OneCategory/'+category.key" tag="span" class="pointer">
 
-              <v-card-title primary-title>
-                <div>
-                  <h3 class="headline mb-0">{{ad.name}}</h3>
-                  <div v-for="component in ad.components"> {{component.category}}: {{component.name}}</div>
-                </div>
-              </v-card-title>
+          <v-card min-height="34em">
+            <v-card-title primary-title>
+              <h3 class="headline text-xs-center">{{category.name}}</h3>
+            </v-card-title>
 
-              <v-card-actions>
-                <v-spacer></v-spacer>
-                <v-btn flat :to="'/ad/' + ad.id">Open</v-btn>
-                <v-btn raised class="primary">Buy</v-btn>
-              </v-card-actions>
+            <v-img
+              :src="category.image"
+              height="200px"
+              aspect-ratio="2.75"
+              contain
+            ></v-img>
 
-            </v-card>
-          </v-flex>
-        </v-layout>
-        <v-layout row wrap  v-else>
-
-        <v-flex
-            v-for="ad of adn"
-            :key="ad.id"
-            xs12
-            sm6
-            md4
-          >
-            <v-card>
-              <v-img
-                :src="ad.imageSrc"
-                aspect-ratio="2.75"
-                height="200px"
-              ></v-img>
-
-              <v-card-title primary-title>
-                <div>
-                  <h3 class="headline mb-0">{{ad.name}}</h3>
-                  <div v-for="component in ad.components"> {{component.category}}: {{component.name}}</div>
-                </div>
-              </v-card-title>
-
-              <v-card-actions>
-                <v-spacer></v-spacer>
-                <v-btn flat :to="'/ad/' + ad.id">Open</v-btn>
-                <v-btn raised class="primary">Buy</v-btn>
-              </v-card-actions>
-
-            </v-card>
-          </v-flex>
-
-        </v-layout>
-
-      </v-layout>
-
-    </v-container>
-  </div>
-
+            <v-card-title>
+              <div>
+                <p class="text-xs-left body-2">{{category.description}}:</p>
+                <ul>
+                  <li class="text-xs-left" v-for="element in category.param">{{element}}</li>
+                </ul>
+              </div>
+            </v-card-title>
+          </v-card>
+        </router-link>
+      </v-flex>
+    </v-layout>
+  </v-container>
 </template>
 
 <script>
@@ -93,68 +50,23 @@
     name: "Home",
     data() {
       return {
-        hotSwap: [],
-        adsHotSwaps: [],
-        aa:false
+
       }
     },
-    computed: {
-      promoAds() {
-        return this.$store.getters.promoAds
+    computed:{
+      loading() {
+        return this.$store.getters.loading
       },
-      adn() {
-        return this.$store.getters.ads
-      },
-      ads() {
-        return this.adn
-          .filter(ad => {
-            return ad.components.some(component => component.attributes.some(attribute =>
-              this.hotSwap.includes(attribute.name) && attribute.category == 'Hot-swap'));
-          });
-        // .filter(ad => {
-        //   return ad.components.some(component => component.attributes.some(attribute=>
-        //     attribute.value == 1536 && attribute.name == 'Максимальный объем памяти'))
-        // })
-      },
-
-    },
-    methods: {
-      hotSwaps() {
-        for (let ad in this.adn) {
-          let components = this.adn[ad].components;
-
-          for (let component in components) {
-            let attributes = components[component].attributes;
-
-            for (let attribute in attributes) {
-              let attribute = attributes[attribute];
-
-              if (attribute.category == 'Hot-swap') {
-                this.adsHotSwaps.push(attribute.name)
-              }
-            }
-          }
-        }
-        this.adsHotSwaps = [...new Set(this.adsHotSwaps)]
+      categoryList(){
+        return this.$store.getters.category
       }
+    },
+    created() {
+      this.$store.dispatch('getCategoryJson')
     }
   }
 </script>
 
-<style>
-  .car-link {
-    position: absolute;
-    bottom: 50px;
-    left: 50%;
-    background: rgba(0, 0, 0, .5);
-    transform: translate(-50%, 0);
-    padding: 5px 15px;
-    border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
-  }
-
-  .otstup {
-    margin-right: 200px !important;
-  }
+<style scoped>
 
 </style>

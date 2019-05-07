@@ -1,14 +1,17 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import AuthGuard from './authGuard'
 import Home from '@/components/Home'
-import Ad from '@/components/Ads/Ad'
-import List from '@/components/Ads/AdList'
-import NewAd from '@/components/Ads/NewAd'
-import Login from '@/components/Auth/Login'
-import Registration from '@/components/Auth/Registration'
-import Orders from '@/components/User/Orders'
-
+import Ad from '../components/Ads/Ad'
+import NotFound from '../components/Ads/NotFound'
+import OneCategory from '../components/Ads/OneCategory'
+import List from '../components/Ads/AdList'
+import OrderAd from '../components/Ads/OrderAd'
+import Login from '../components/Auth/Login'
+import Registration from '../components/Auth/Registration'
+import Orders from '../components/User/Orders'
+import Admin from '../components/User/Admin'
+import AllOrdersCompany from '../components/Ads/AllOrdersCompany'
+import AuthGuard from './authGuard'
 
 Vue.use(Router);
 
@@ -24,19 +27,18 @@ export default new Router({
       props: true,
       name: 'ad',
       component: Ad,
-      beforeEnter: AuthGuard
+    },
+    {
+      path: '/OneCategory/:id',
+      props: true,
+      name: 'OneCategory',
+      component: OneCategory,
     },
     {
       path: '/list',
       name: 'list',
       component: List,
-      beforeEnter: AuthGuard
-    },
-    {
-      path: '/new',
-      name: 'newAd',
-      component: NewAd,
-      beforeEnter: AuthGuard
+      // beforeEnter: AuthGuard
     },
     {
       path: '/login',
@@ -53,7 +55,37 @@ export default new Router({
       name: 'orders',
       component: Orders,
       beforeEnter: AuthGuard
-    }
+    },
+    {
+      path: '/admin',
+      name: 'Admin',
+      component: Admin,
+      beforeEnter: AuthGuard
+    },
+    {
+      path: '/OrderAd/:id',
+      props: true,
+      name: 'orderAd',
+      component: OrderAd,
+      beforeEnter: AuthGuard
+    },
+    {
+      path: '/allOrder/:id',
+      props: true,
+      name: 'allOrdersCompany',
+      component: AllOrdersCompany,
+      beforeEnter: AuthGuard
+    },
+    {
+      path: '*',
+      props: true,
+      name: 'NotFound',
+      component: NotFound,
+    },
   ],
   mode: 'history'
 })
+
+
+
+

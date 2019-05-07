@@ -4,10 +4,12 @@
       <v-flex xs12 sm8 md4>
         <v-card class="elevation-12">
           <v-toolbar dark color="primary">
-            <v-toolbar-title>Login</v-toolbar-title>
+            <v-toolbar-title>Авторизация</v-toolbar-title>
           </v-toolbar>
           <v-card-text>
-            <v-form ref="form" v-model="valid" lazy-validation>
+            <p>логин - client@serverfon.ru , пароль- 123456</p>
+            <!--            <p>логин - manager@talmer.ru , пароль- 123456</p>-->
+            <v-form ref="form" v-model="valid" lazy-validation >
               <v-text-field
                 prepend-icon="person"
                 name="email"
@@ -23,6 +25,7 @@
                 label="Password"
                 type="password"
                 :counter="6"
+                v-on:keypress.13="onSubmit"
                 :rules="passwordRules"
                 v-model="password">
               </v-text-field>
@@ -36,8 +39,9 @@
               :loading='loading'
               :disabled="!valid || loading"
             >
-              Login
+              Вход
             </v-btn>
+            <p v-if="getError">{{getError}}</p>
           </v-card-actions>
         </v-card>
       </v-flex>
@@ -54,16 +58,19 @@
         password: '',
         valid: false,
         emailRules: [
-          v => !!v || 'E-mail is required',
-          v => /.+@.+/.test(v) || 'E-mail must be valid'
+          v => !!v || 'Поле E-mail обязательно к заполнению',
+          v => /.+@.+/.test(v) || 'E-mail некорректно введен'
         ],
         passwordRules: [
-          v => !!v || 'Password is required',
-          v => (v && v.length >= 6) || 'Password must be less than 6 characters'
+          v => !!v || 'Поле Password  обязательно к заполнению',
+          v => (v && v.length >= 6) || 'Длина Password минимум 6 символов'
         ]
       }
     },
     methods: {
+      enterClicked() {
+        alert("Enter clicked")
+      },
       onSubmit() {
         if (this.$refs.form.validate()) {
           const user = {
@@ -72,10 +79,13 @@
           };
 
           this.$store.dispatch('loginUser', user)
-            .then(() => {
-              this.$router.push('/')
+            .finally(() => {
+              this.$router.go(-1)
+              // this.$store.dispatch('getTovarsJson', this.$store.getters.user.id);
             })
-            .catch(err => console.log(err));
+            .catch(err => {
+              console.log(err)
+            });
         }
 
       }
@@ -83,6 +93,14 @@
     computed: {
       loading() {
         return this.$store.getters.loading
+      },
+      getError() {
+        if (this.$store.getters.loginError) {
+          return this.$store.getters.loginError
+        } else {
+          return ''
+        }
+
       }
     },
     created() {
