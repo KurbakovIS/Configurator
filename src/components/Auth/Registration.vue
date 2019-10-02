@@ -13,6 +13,7 @@
                 name="lastName"
                 label="Фамилия"
                 type="text"
+                maxlength="30"
                 :rules="TextRules"
                 v-model="lastName">
               </v-text-field>
@@ -21,6 +22,7 @@
                 name="name"
                 label="Имя"
                 type="text"
+                maxlength="30"
                 :rules="TextRules"
                 v-model="name">
               </v-text-field>
@@ -28,17 +30,20 @@
               <v-text-field
                 prepend-icon="contact_phone"
                 name="phone"
-                label="Телефон"
+                label="Телефон (9**) *** ****"
+                prefix="+7"
                 type="phone"
                 :mask="maskPhone"
-                :rules="TextRules"
+                :rules="PhoneRules"
                 v-model="phone">
               </v-text-field>
+
               <v-text-field
                 prepend-icon="email"
                 name="email"
                 label="Email"
                 type="email"
+                maxlength="30"
                 :rules="emailRules"
                 v-model="email">
               </v-text-field>
@@ -49,6 +54,7 @@
                 label="Введите пароль"
                 type="password"
                 :counter="6"
+                maxlength="6"
                 :rules="passwordRules"
                 v-model="password">
               </v-text-field>
@@ -59,6 +65,7 @@
                 label="Повторите пароль"
                 type="password"
                 :counter="6"
+                maxlength="6"
                 :rules="ConfirmPasswordRules"
                 v-model="ConfirmPassword">
               </v-text-field>
@@ -83,6 +90,7 @@
                 name="company"
                 label="Компания"
                 type="text"
+                maxlength="30"
                 :rules="TextRules"
                 v-model="newCompany">
               </v-text-field>
@@ -92,8 +100,9 @@
                 name="companyPhone"
                 label="Телефон компании"
                 type="phone"
+                prefix="+7"
                 :mask="maskPhone"
-                :rules="TextRules"
+                :rules="PhoneRules"
                 v-model="newCompanyPhone">
               </v-text-field>
             </v-form>
@@ -133,19 +142,26 @@
         valid: false,
         maskPhone: 'phone',
         emailRules: [
-          v => !!v || 'E-mail is required',
-          v => /.+@.+/.test(v) || 'E-mail must be valid'
+          v => !!v || 'E-mail обязательный для заполнения',
+          value => (value || '').length !== 30 || 'Не более 30 символов',
+          v => /.+@.+/.test(v) || 'E-mail не карректный'
         ],
         TextRules: [
           v => !!v || 'Поле обязательно для заполнения',
+          v => isNaN(parseInt(v)) || 'Нельзя вводить цифры',
+          v => (v && v.length !== 30) || 'Не более 30 символов'
+        ],
+        PhoneRules: [
+          v => !!v || 'Поле обязательно для заполнения',
         ],
         passwordRules: [
-          v => !!v || 'Password is required',
-          v => (v && v.length >= 6) || 'Password must be less than 6 characters'
+          v => !!v || 'Пароль обязательный для заполнения',
+          v => (v && v.length !== 6) || 'Пароль должен содержать не более 6 символов'
         ],
         ConfirmPasswordRules: [
-          v => !!v || 'Password is required',
-          v => v === this.password || 'Повторите пароль'
+          v => !!v || 'Password обязательный для заполнения',
+          v => v === this.password || 'Повторите пароль',
+          v => (v && v.length !== 6) || 'Пароль должен содержать не более 6 символов'
         ]
       }
     },

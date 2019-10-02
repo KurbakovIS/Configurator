@@ -792,6 +792,8 @@
                         name="comments"
                         label="В данном разделе вы можете указать любую дополнительную информацию"
                         v-model="comments"
+                        maxlength="190"
+                        :counter="190"
                       ></v-textarea>
                     </v-card-text>
                   </v-card>
