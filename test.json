@@ -1,0 +1,440 @@
+{
+    "user_id": "5c8e9b62c077ea664b176c0e",
+    "customer": {
+        "fullName": "dsadasd",
+        "email": "posi_tiv@bk.ru",
+        "phone": "8914331349",
+        "id": "5c8e9cc39e607066adce6d19",
+        "company_id": "5c8e9ac5c077ea664b176c0d"
+    },
+    "tech_customer": {
+        "fullName": "",
+        "email": "",
+        "phone": ""
+    },
+    "address_ship": "sadsadsa",
+    "date_ship": "Wed Apr 17 2019 00:00:00 GMT+0300 (Москва, стандартное время)",
+    "comments": "dasdasd",
+    "position": [
+        {
+            "0": {
+                "_id": "5c8e9baec077ea664b176c0f",
+                "user_id": "5c8e9b62c077ea664b176c0e",
+                "server_id": "5c8cf0cc4b6672401ebaa104",
+                "server_date": "2019-03-17T19:10:38.000Z",
+                "server_name": "TA1304-3U16HE5F",
+                "server_corp": "836BE1C-R1K03B",
+                "server_type": "Standard",
+                "server_mp": "X10DRi-T",
+                "attributes": [
+                    {
+                        "_id": "5c8e9baec077ea664b176c19",
+                        "category": "Процессор",
+                        "name": "Процессор",
+                        "value": "",
+                        "count": 2
+                    },
+                    {
+                        "_id": "5c8e9baec077ea664b176c18",
+                        "category": "Оперативная память",
+                        "name": "Оперативная память",
+                        "value": "Объем",
+                        "count": 1
+                    },
+                    {
+                        "_id": "5c8e9baec077ea664b176c17",
+                        "category": "Операционная система",
+                        "name": "Операционная система",
+                        "value": "",
+                        "count": null
+                    },
+                    {
+                        "_id": "5c8e9baec077ea664b176c16",
+                        "category": "Системный накопитель",
+                        "name": "",
+                        "value": "",
+                        "count": 0
+                    },
+                    {
+                        "_id": "5c8e9baec077ea664b176c15",
+                        "category": "Сетевая карта",
+                        "name": "Сетевая карта",
+                        "value": "",
+                        "count": 0
+                    },
+                    {
+                        "_id": "5c8e9baec077ea664b176c14",
+                        "category": "Hba",
+                        "name": "Hba",
+                        "value": "",
+                        "count": 0
+                    },
+                    {
+                        "_id": "5c8e9baec077ea664b176c13",
+                        "category": "Raid",
+                        "name": "Raid",
+                        "value": "",
+                        "count": 0
+                    },
+                    {
+                        "_id": "5c8e9baec077ea664b176c12",
+                        "category": "Защита кэшированных данных",
+                        "name": "Защита кэшированных данных",
+                        "value": "Нет",
+                        "count": null
+                    },
+                    {
+                        "_id": "5c8e9baec077ea664b176c11",
+                        "category": "Гарантийная программа",
+                        "name": "Гарантийная программа",
+                        "value": "Basic 3 года",
+                        "count": null
+                    },
+                    {
+                        "_id": "5c8e9baec077ea664b176c10",
+                        "category": "Сохранение неисправных носителей",
+                        "name": "Сохранение неисправных носителей",
+                        "value": "Нет",
+                        "count": null
+                    }
+                ],
+                "disks": [
+                    {
+                        "_id": "5c8e9baec077ea664b176c1a",
+                        "form": "",
+                        "interface": "",
+                        "value": "",
+                        "count": 0
+                    }
+                ],
+                "count_position": 1,
+                "comments_position": "",
+                "__v": 0
+            },
+            "1": {
+                "_id": "5c8e9ddb9e607066adce6d1b",
+                "user_id": "5c8e9b62c077ea664b176c0e",
+                "server_id": "5c8cf0cc4b6672401eba9e7e",
+                "server_date": "2019-03-17T19:19:55.000Z",
+                "server_name": "TA1303-3U16HSCF",
+                "server_corp": "836BE1C-R1K03B",
+                "server_type": "Standard",
+                "server_mp": "X11SPL-F",
+                "attributes": [
+                    {
+                        "_id": "5c8e9ddb9e607066adce6d25",
+                        "category": "Процессор",
+                        "name": "Процессор",
+                        "value": "Intel® Xeon® Gold 6138P Processor",
+                        "count": 1
+                    },
+                    {
+                        "_id": "5c8e9ddb9e607066adce6d24",
+                        "category": "Оперативная память",
+                        "name": "Оперативная память",
+                        "value": "Объем",
+                        "count": 311
+                    },
+                    {
+                        "_id": "5c8e9ddb9e607066adce6d23",
+                        "category": "Операционная система",
+                        "name": "Операционная система",
+                        "value": "Windows Server 2012 R2",
+                        "count": null
+                    },
+                    {
+                        "_id": "5c8e9ddb9e607066adce6d22",
+                        "category": "Системный накопитель",
+                        "name": "SuperDOM",
+                        "value": "",
+                        "count": 1
+                    },
+                    {
+                        "_id": "5c8e9ddb9e607066adce6d21",
+                        "category": "Сетевая карта",
+                        "name": "Сетевая карта",
+                        "value": "Gigabit RJ45 Single",
+                        "count": 1
+                    },
+                    {
+                        "_id": "5c8e9ddb9e607066adce6d20",
+                        "category": "Hba",
+                        "name": "Hba",
+                        "value": "HBA (16 int. port) 12 Gbs",
+                        "count": 1
+                    },
+                    {
+                        "_id": "5c8e9ddb9e607066adce6d1f",
+                        "category": "Raid",
+                        "name": "Raid",
+                        "value": "RAID-контроллер cache 2Gb (8 int. port) 12 Gbs",
+                        "count": 1
+                    },
+                    {
+                        "_id": "5c8e9ddb9e607066adce6d1e",
+                        "category": "Защита кэшированных данных",
+                        "name": "Защита кэшированных данных",
+                        "value": "Да",
+                        "count": null
+                    },
+                    {
+                        "_id": "5c8e9ddb9e607066adce6d1d",
+                        "category": "Гарантийная программа",
+                        "name": "Гарантийная программа",
+                        "value": "Basic 3 года",
+                        "count": null
+                    },
+                    {
+                        "_id": "5c8e9ddb9e607066adce6d1c",
+                        "category": "Сохранение неисправных носителей",
+                        "name": "Сохранение неисправных носителей",
+                        "value": "Да",
+                        "count": null
+                    }
+                ],
+                "disks": [
+                    {
+                        "_id": "5c8e9ddb9e607066adce6d26",
+                        "form": "3,5\"",
+                        "interface": "SATA",
+                        "value": "0,3",
+                        "count": 1
+                    }
+                ],
+                "count_position": 1,
+                "comments_position": "",
+                "__v": 0
+            },
+            "2": {
+                "_id": "5c8eae5e8cd8c669df2ee108",
+                "user_id": "5c8e9b62c077ea664b176c0e",
+                "server_id": "5c8cf0cd4b6672401ebaa689",
+                "server_date": "2019-03-17T20:30:22.000Z",
+                "server_name": "TA1103-1U04HSCW",
+                "server_corp": "815TQC-R706WB2",
+                "server_type": "WIO",
+                "server_mp": "X11DDW-L",
+                "attributes": [
+                    {
+                        "_id": "5c8eae5e8cd8c669df2ee112",
+                        "category": "Процессор",
+                        "name": "Процессор",
+                        "value": "Intel® Xeon® Gold 6130T Processor",
+                        "count": 2
+                    },
+                    {
+                        "_id": "5c8eae5e8cd8c669df2ee111",
+                        "category": "Оперативная память",
+                        "name": "Оперативная память",
+                        "value": "Объем",
+                        "count": 825
+                    },
+                    {
+                        "_id": "5c8eae5e8cd8c669df2ee110",
+                        "category": "Операционная система",
+                        "name": "Операционная система",
+                        "value": "Windows Server 2012",
+                        "count": null
+                    },
+                    {
+                        "_id": "5c8eae5e8cd8c669df2ee10f",
+                        "category": "Системный накопитель",
+                        "name": "не выбран",
+                        "value": "",
+                        "count": 0
+                    },
+                    {
+                        "_id": "5c8eae5e8cd8c669df2ee10e",
+                        "category": "Сетевая карта",
+                        "name": "Сетевая карта",
+                        "value": "Gigabit RJ45 Single",
+                        "count": 1
+                    },
+                    {
+                        "_id": "5c8eae5e8cd8c669df2ee10d",
+                        "category": "Hba",
+                        "name": "Hba",
+                        "value": "HBA (8 int.8 ext. port) 12 Gbs",
+                        "count": 0
+                    },
+                    {
+                        "_id": "5c8eae5e8cd8c669df2ee10c",
+                        "category": "Raid",
+                        "name": "Raid",
+                        "value": "RAID-контроллер cache 4Gb (8 int. port) 12 Gbs",
+                        "count": 0
+                    },
+                    {
+                        "_id": "5c8eae5e8cd8c669df2ee10b",
+                        "category": "Защита кэшированных данных",
+                        "name": "Защита кэшированных данных",
+                        "value": "Нет",
+                        "count": null
+                    },
+                    {
+                        "_id": "5c8eae5e8cd8c669df2ee10a",
+                        "category": "Гарантийная программа",
+                        "name": "Гарантийная программа",
+                        "value": "Basic 3 года",
+                        "count": null
+                    },
+                    {
+                        "_id": "5c8eae5e8cd8c669df2ee109",
+                        "category": "Сохранение неисправных носителей",
+                        "name": "Сохранение неисправных носителей",
+                        "value": "Да",
+                        "count": null
+                    }
+                ],
+                "disks": [
+                    {
+                        "_id": "5c8eae5e8cd8c669df2ee114",
+                        "form": "3,5\"",
+                        "interface": "SATA",
+                        "value": "0,32",
+                        "count": 1
+                    },
+                    {
+                        "_id": "5c8eae5e8cd8c669df2ee113",
+                        "form": "2,5\"",
+                        "interface": "SATA",
+                        "value": "0,75",
+                        "count": 1
+                    }
+                ],
+                "count_position": 1,
+                "comments_position": "sadsadsadsa",
+                "__v": 0
+            },
+            "3": {
+                "_id": "5c8eae878cd8c669df2ee115",
+                "user_id": "5c8e9b62c077ea664b176c0e",
+                "server_id": "5c8cf0cd4b6672401ebaae07",
+                "server_date": "2019-03-17T20:31:03.000Z",
+                "server_name": "TA1304-3U16HSCF",
+                "server_corp": "836BE1C-R1K03B",
+                "server_type": "Standard",
+                "server_mp": "X11DPi-N",
+                "attributes": [
+                    {
+                        "_id": "5c8eae878cd8c669df2ee123",
+                        "category": "Процессор",
+                        "name": "Процессор",
+                        "value": "",
+                        "count": 2
+                    },
+                    {
+                        "_id": "5c8eae878cd8c669df2ee122",
+                        "category": "Оперативная память",
+                        "name": "Оперативная память",
+                        "value": "Объем",
+                        "count": 1
+                    },
+                    {
+                        "_id": "5c8eae878cd8c669df2ee121",
+                        "category": "Операционная система",
+                        "name": "Операционная система",
+                        "value": "",
+                        "count": null
+                    },
+                    {
+                        "_id": "5c8eae878cd8c669df2ee120",
+                        "category": "Системный накопитель",
+                        "name": "",
+                        "value": "",
+                        "count": 0
+                    },
+                    {
+                        "_id": "5c8eae878cd8c669df2ee11f",
+                        "category": "Сетевая карта",
+                        "name": "Сетевая карта",
+                        "value": "25 Gigabit SFP+ Dual",
+                        "count": 1
+                    },
+                    {
+                        "_id": "5c8eae878cd8c669df2ee11e",
+                        "category": "Hba",
+                        "name": "Hba",
+                        "value": "HBA (2 SFP+ port) 8 GFC",
+                        "count": 1
+                    },
+                    {
+                        "_id": "5c8eae878cd8c669df2ee11d",
+                        "category": "Raid",
+                        "name": "Raid",
+                        "value": "RAID-контроллер cache 2Gb (16 int. port) 12 Gbs",
+                        "count": 1
+                    },
+                    {
+                        "_id": "5c8eae878cd8c669df2ee11c",
+                        "category": "Защита кэшированных данных",
+                        "name": "Защита кэшированных данных",
+                        "value": "Нет",
+                        "count": null
+                    },
+                    {
+                        "_id": "5c8eae878cd8c669df2ee11b",
+                        "category": "Гарантийная программа",
+                        "name": "Гарантийная программа",
+                        "value": "Basic 3 года",
+                        "count": null
+                    },
+                    {
+                        "_id": "5c8eae878cd8c669df2ee11a",
+                        "category": "Сохранение неисправных носителей",
+                        "name": "Сохранение неисправных носителей",
+                        "value": "Нет",
+                        "count": null
+                    },
+                    {
+                        "_id": "5c8eae878cd8c669df2ee119",
+                        "category": "Трансивер",
+                        "name": "Трансивер",
+                        "value": "1 Gbs LC mm",
+                        "count": 1
+                    },
+                    {
+                        "_id": "5c8eae878cd8c669df2ee118",
+                        "category": "Трансивер",
+                        "name": "Трансивер",
+                        "value": "10 Gbs LC mm",
+                        "count": 1
+                    },
+                    {
+                        "_id": "5c8eae878cd8c669df2ee117",
+                        "category": "Hba Трансивер",
+                        "name": "Hba Трансивер",
+                        "value": "10 Gbs LC mm",
+                        "count": 1
+                    },
+                    {
+                        "_id": "5c8eae878cd8c669df2ee116",
+                        "category": "Hba Трансивер",
+                        "name": "Hba Трансивер",
+                        "value": "1 Gbs LC sm",
+                        "count": 1
+                    }
+                ],
+                "disks": [
+                    {
+                        "_id": "5c8eae878cd8c669df2ee124",
+                        "form": "",
+                        "interface": "",
+                        "value": "",
+                        "count": 0
+                    }
+                ],
+                "count_position": 1,
+                "comments_position": "adsadasddas",
+                "__v": 0
+            }
+        }
+    ],
+    "order_id": "764E899E02928",
+    "manager": {
+        "id": "5c8e9a90c077ea664b176c0c",
+        "fullName": "Теремков Владимир Иванович",
+        "email": "manager@talmer.ru",
+        "phone": 72223334455
+    }
+}
