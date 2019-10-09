@@ -13,6 +13,7 @@ import AdminCompanysComponent from './components/User/admin/Company'
 import AdminUserComponent from './components/User/admin/Users'
 import SelectParams from './components/shared/SelectParam'
 import Vue2Storage from 'vue2-storage'
+import '@mdi/font/css/materialdesignicons.css'
 
 Vue.use(Vuetify, {
   theme: {
@@ -42,6 +43,9 @@ new Vue({
   router,
   store,
   axios,
+  icons: {
+    iconfont: 'mdi',
+  },
   components: {App},
   template: '<App/>',
   created() {

@@ -175,6 +175,17 @@
               offset-sm1
               v-else-if="!loading && getOrdersClient"
       >
+        <v-text-field
+          v-model="message"
+          append-outer-icon="mdi-send"
+          filled
+          clear-icon="mdi-close-circle"
+          clearable
+          label="Поиск заявки"
+          type="text"
+          @click:append-outer="sendMessage"
+          @click:clear="clearMessage"
+        ></v-text-field>
         <v-list
           subheader
           two-line
@@ -183,6 +194,7 @@
             <v-flex xs2  lg2 class="text-lg-center">
               <v-card-text>
                 № заявки
+
               </v-card-text>
             </v-flex>
             <v-flex xs2  lg2 class="text-lg-center ">
@@ -309,10 +321,15 @@
 
     data() {
       return {
-        drawer: false
+        drawer: false,
+        message: '',
+        iconIndex: 0,
       }
     },
     computed: {
+      icon () {
+        return this.icons[this.iconIndex]
+      },
       loading() {
         return this.$store.getters.loading
       },
@@ -355,6 +372,18 @@
           link.click();
         });
       },
+
+      sendMessage () {
+        this.resetIcon()
+        this.clearMessage()
+      },
+      clearMessage () {
+        this.message = ''
+      },
+      resetIcon () {
+        this.iconIndex = 0
+      },
+
     },
     created() {
       this.$store.dispatch('getOrdersClientJson', this.$store.getters.user.id)
