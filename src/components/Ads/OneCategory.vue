@@ -140,7 +140,6 @@
             v-for="(ad,i) of filterAds"
             :key="ad.id"
             xs3
-
           >
 
             <v-card>
@@ -152,7 +151,7 @@
               ></v-img>
 
               <v-card-title>
-                <h3 class="headline text-xs-center mb-0">Сервер Талмер {{ad.name}}</h3>
+                <h3 class="headline text-xs-center mb-0">Сервер ТАЛМЕР {{ad.name}}</h3>
                 <ul style="min-height: 125px">
                   <li>{{ad.pr_count}}</li>
                   <li>Корпус {{ad.corp}}</li>

@@ -34,7 +34,7 @@
                   {{getOpisanie[0]}} и {{getOpisanie[1]}}
                  </span>
                 <span v-else-if="getOpisanie[0].indexOf('3,5') != -1">
-                стандартного {{getOpisanie[0]}} и малого форм-фактора (2,5”)
+                {{getOpisanie[0]}} и малого форм-фактора (2,5”)
                 </span>
                 <span v-else>
                   {{getOpisanie[0]}}
@@ -172,8 +172,11 @@
                               <v-text-field type="number"
                                             class="text-xs-center"
                                             min="1"
+                                            id="memory"
                                             suffix="Гб."
                                             :max="ad.ram"
+                                            v-on:keydown="limitText"
+                                            v-on:keyup="limitText"
                                             v-model="asdMemorys"
                                             height="12px"
                                             style="text-align:center"
@@ -275,9 +278,9 @@
                                 <v-icon dark>highlight_off</v-icon>
                               </v-btn>
                             </v-flex>
-<!--                            <v-flex v-if='i["name"+i["id"]] == "2,5\"" && formFactors.indexOf(3,5)'>-->
-<!--                              <p>Будут добавлены дисковые корзины под 2,5” накопители</p>-->
-<!--                            </v-flex>-->
+                            <!--                            <v-flex v-if='i["name"+i["id"]] == "2,5\"" && formFactors.indexOf(3,5)'>-->
+                            <!--                              <p>Будут добавлены дисковые корзины под 2,5” накопители</p>-->
+                            <!--                            </v-flex>-->
 
                           </v-layout>
                         </v-container>
@@ -955,19 +958,19 @@
     },
     computed: {
       standartUsb() {
-        if (this.ad.usb_com[Object.keys(this.ad.usb_com)] == 'standart') {
+        if (this.ad.usb_com[Object.keys(this.ad.usb_com)] === 'standart') {
           this.selectCountUsbCom = '1 шт. Стандартная комплектация'
         }
         return '1 шт. Стандарт'
       },
       standartDVD() {
-        if (this.ad.slim_dvd[Object.keys(this.ad.slim_dvd)] == 'standart') {
+        if (this.ad.slim_dvd[Object.keys(this.ad.slim_dvd)] === 'standart') {
           this.selectCountSlimDvd = '1 шт. Стандартная комплектация'
         }
         return '1 шт. Стандарт'
       },
       standartDopBay() {
-        if (this.ad.ots_525[Object.keys(this.ad.ots_525)] == 'standart') {
+        if (this.ad.ots_525[Object.keys(this.ad.ots_525)] === 'standart') {
           this.selectDopBay = '1 шт. Стандартная комплектация'
         }
         return '1 шт. Стандарт'
@@ -993,10 +996,10 @@
       getOpisanie() {
         let name = [];
         Object.keys(this.ad.description['dcc']).forEach(element => {
-          if (element == '3,5\"') {
+          if (element === '3,5\"') {
             name.push('стандартного форм-фактора (3,5”)')
           }
-          if (element == '2,5\"') {
+          if (element === '2,5\"') {
             name.push('малого форм-фактора (2,5”)')
           }
         });
@@ -1019,7 +1022,7 @@
         let raid = this.$store.getters.raid;
         let gate = '';
         raid.forEach(element => {
-          if (element[this.selectRaidController] == 'true') {
+          if (element[this.selectRaidController] === 'true') {
             gate = true
           }
         });
@@ -1048,7 +1051,7 @@
       },
       getHbaValue() {
         return this.$store.getters.hba.filter(element => {
-          return Object.keys(element)[0] == this.selectHba
+          return Object.keys(element)[0] === this.selectHba
         });
       },
       getTransiver() {
@@ -1056,14 +1059,14 @@
       },
       getMaxDisk() {
 
-        if (this.selectSistemNakopitel != 'не выбран') {
-          if (this.selectSistemNakopitel == '2 HDD 2,5" Hot-Swap') {
+        if (this.selectSistemNakopitel !== 'не выбран') {
+          if (this.selectSistemNakopitel === '2 HDD 2,5" Hot-Swap') {
             return this.ad['disk_controllers'].filter(element => {
-              return Object.keys(element) == 'back_dd'
+              return Object.keys(element) === 'back_dd'
             })
           } else {
             return this.ad['disk_controllers'].filter(element => {
-              return Object.keys(element) == this.selectSistemNakopitel
+              return Object.keys(element) === this.selectSistemNakopitel
             })
           }
         }
@@ -1071,9 +1074,9 @@
       },
       getValueDisk() {
         this.disk.forEach(disk => {
-          if (Object.keys(disk) == "2,5'") {
+          if (Object.keys(disk) === "2,5'") {
             this.filterDisk_2_5.push(Object.values(disk))
-          } else if (Object.keys(disk) == "3,5'") {
+          } else if (Object.keys(disk) === "3,5'") {
             this.filterDisk_3_5.push(Object.values(disk))
           }
         })
@@ -1098,7 +1101,7 @@
         maxDisk += +this.ad.dd.fixed['3,5\"'];
         maxDisk += +this.ad.dd.hot_swap['2,5\"'];
         maxDisk += +this.ad.dd.hot_swap['3,5\"'];
-        console.log(maxDisk)
+        console.log(maxDisk);
         return maxDisk
       },
       formFactors() {
@@ -1106,16 +1109,16 @@
           list = ['2,5\"', '3,5\"'];
 
         for (var element in list) {
-          if (this.ad.dd.fixed[list[element]] != 0) {
+          if (this.ad.dd.fixed[list[element]] !== 0) {
             formFactor.push(list[element])
           }
         }
         for (var elements in list) {
-          if (this.ad.dd.hot_swap[list[elements]] != 0) {
+          if (this.ad.dd.hot_swap[list[elements]] !== 0) {
             formFactor.push(list[elements])
           }
         }
-        if (formFactor.indexOf('3,5\"') != -1) {
+        if (formFactor.indexOf('3,5\"') !== -1) {
           formFactor.unshift('2,5\"')
         }
         return formFactor
@@ -1158,9 +1161,9 @@
         return proc[this.ad.pr_count]
       },
       getVolumeNetwork() {
-        if (this.network != '') {
+        if (this.network !== '') {
           let oo = this.getNetwork.filter(element => {
-            return Object.keys(element)[0] == this.network
+            return Object.keys(element)[0] === this.network
           });
           console.log(oo[0])
           return oo[0]
@@ -1197,7 +1200,7 @@
           result['disk'] = "Выбрано максимально допустимое количество накопителей\n"
 
         }
-        if (Object.keys(result).length != 0) {
+        if (Object.keys(result).length !== 0) {
           this.resultShow = false;
           return result
         } else {
@@ -1220,12 +1223,16 @@
       },
     },
     methods: {
-
+      limitText(event) {
+        if ((String(event.target.value).length) > 4) {
+          event.target.value = +(String(event.target.value).substring(0, 4));
+        }
+      },
       getChangeNetwork() {
         this.selectTransceiver = [
           {"id": 1, "name1": '', "volume1": 0},
         ]
-        if (this.network != 'не выбран') {
+        if (this.network !== 'не выбран') {
           this.selectNetwork = 1
         } else {
           this.selectNetwork = 0
@@ -1233,8 +1240,8 @@
 
       },
       clearVolumeHoarder() {
-        if (this.selectSistemNakopitel == 'не выбран') {
-          this.selectSistemNakopitelMemory = 0
+        if (this.selectSistemNakopitel === 'не выбран') {
+          this.selectSistemNakopitelMemory = 0;
           this.dopSystemMemoryCount = 0
         } else {
           this.dopSystemMemoryCount = 1
@@ -1244,7 +1251,7 @@
         this.selectHbaTransceiver = [
           {"id": 1, "name1": '', "volume1": 0},
         ]
-        if (this.selectHba != 'Не выбран') {
+        if (this.selectHba !== 'Не выбран') {
           this.countSelectHba = 1
         } else {
           this.countSelectHba = 0
@@ -1263,18 +1270,18 @@
         }
       },
       getOneCount(model, pole) {
-        if (model['name'] != 'Без трансиверов') {
+        if (model['name'] !== 'Без трансиверов') {
           pole = 1
         } else {
           pole = 0
         }
       },
       getMaxCount(model) {
-        if (this.ad.count_cc == this.limitSlot['corpus'] && this.ad.count_mp == this.limitSlot['materinka']) {
+        if (this.ad.count_cc === this.limitSlot['corpus'] && this.ad.count_mp === this.limitSlot['materinka']) {
           return model
-        } else if (this.ad.count_cc == this.limitSlot['corpus']) {
+        } else if (this.ad.count_cc === this.limitSlot['corpus']) {
           return model
-        } else if (this.ad.count_mp == this.limitSlot['materinka']) {
+        } else if (this.ad.count_mp === this.limitSlot['materinka']) {
           return model
         } else {
           if (this.ad.count_cc < this.ad.count_mp) {
@@ -1311,7 +1318,7 @@
       },
       Protection() {
         let count = 0;
-        if (this.dataProtection == 'да') {
+        if (this.dataProtection === 'да') {
           count += 1;
           return count
         } else {
@@ -1321,7 +1328,7 @@
       countMinusFormFactor(id) {
         for (let i in this.valueObjFormFactor) {
 
-          if (this.valueObjFormFactor[i]['id'] == id) {
+          if (this.valueObjFormFactor[i]['id'] === id) {
             this.valueObjFormFactor.splice(this.valueObjFormFactor.indexOf(this.valueObjFormFactor[i]), 1)
           }
         }
@@ -1330,7 +1337,7 @@
         if (this.selectTransceiver.length > 1) {
           for (let i in this.selectTransceiver) {
 
-            if (this.selectTransceiver[i]['id'] == id) {
+            if (this.selectTransceiver[i]['id'] === id) {
               this.selectTransceiver.splice(this.selectTransceiver.indexOf(this.selectTransceiver[i]), 1)
             }
           }
@@ -1340,7 +1347,7 @@
         if (this.selectHbaTransceiver.length > 1) {
           for (let i in this.selectHbaTransceiver) {
 
-            if (this.selectHbaTransceiver[i]['id'] == id) {
+            if (this.selectHbaTransceiver[i]['id'] === id) {
               this.selectHbaTransceiver.splice(this.selectHbaTransceiver.indexOf(this.selectHbaTransceiver[i]), 1)
             }
           }
@@ -1421,7 +1428,7 @@
             },
             {
               category: "Системный накопитель",
-              name: this.selectSistemNakopite == 'не выбран' ? '' : `${this.selectSistemNakopitel}`,
+              name: this.selectSistemNakopite === 'не выбран' ? '' : `${this.selectSistemNakopitel}`,
               value: `${this.selectSistemNakopitelMemory}`,
               count: `${this.dopSystemMemoryCount}`
             },
@@ -1485,7 +1492,7 @@
           "comments_position": `${this.comments}`,
         };
         this.selectTransceiver.forEach(element => {
-          if (element['volume'] != 0) {
+          if (element['volume'] !== 0) {
             transiver = {
               category: "Трансивер",
               name: "Трансивер",
@@ -1497,7 +1504,7 @@
         });
 
         this.selectHbaTransceiver.forEach(element => {
-          if (element['volume'] != 0) {
+          if (element['volume'] !== 0) {
             hbaTransiver = {
               category: "HBA трансивер",
               name: "HBA трансивер",
@@ -1519,7 +1526,7 @@
           servBuy["disks"].push(podsistems)
         }
 
-        console.log(servBuy)
+        console.log(servBuy);
         this.jsonBuy.push(servBuy);
         return servBuy
       },

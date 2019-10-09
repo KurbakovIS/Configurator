@@ -52,7 +52,6 @@ export default {
       try {
         axios.post('http://configurator.talmer.ru/api/login', data)
           .then((response) => {
-            // console.log(response.data);
             commit('setUser', new User(response.data));
             axios.get('http://configurator.talmer.ru/api/user/' + response.data)
               .then(response => {
@@ -78,11 +77,9 @@ export default {
       console.log(data);
       commit('clearError');
       commit('setLoading', true);
-      // console.log(data);
       try {
         axios.post('http://configurator.talmer.ru/api/register', data)
           .then((response) => {
-            // console.log(response.data);
             commit('setUser', new User(response.data));
             axios.get('http://configurator.talmer.ru/api/cart/' + response.data)
               .then(response => {

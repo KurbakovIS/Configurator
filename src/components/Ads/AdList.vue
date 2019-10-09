@@ -81,6 +81,7 @@
             :error-messages="phoneErrors"
             placeholder="Телефон *"
             required
+            prefix="+7"
             @input="$v.phone.$touch()"
             @blur="$v.phone.$touch()"
           ></v-text-field>
@@ -107,6 +108,7 @@
             solo
             v-model="techniquePhone"
             placeholder="Телефон"
+            prefix="+7"
             required
           ></v-text-field>
 
